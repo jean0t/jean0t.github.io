@@ -1,0 +1,58 @@
+* {
+	padding: 0%;
+	margin: 0%;
+}
+
+body {
+	font-family: monospace, sans-serif;
+	font-size: 150%;
+	background-color: #A3A3A3;
+}
+
+#title {
+	background-color: #353330;
+	color: white;
+	padding: 3%;
+	border: solid 10px black;
+}
+
+#title div {
+	display: inline-block;
+	width: 49%;
+}
+
+#title div a {
+	text-align: right;
+}
+
+#title a {
+	text-decoration: none;
+	color: white;
+}
+
+#title a:hover {
+	font-size: 30px;
+	text-shadow: 2px 2px gray;
+}
+
+#content {
+	margin-top: 5%;
+	padding: 2%;	
+}
+
+.project {
+	margin-top: 3%;
+}
+
+#more a {
+	color: black;
+}
+
+footer {
+	margin-top: 5%;
+	text-align: center;
+	background-color: #353330;
+	border: solid 10px black; 
+	padding: 3%;
+	color: white;
+}
