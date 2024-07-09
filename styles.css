@@ -1,58 +1,99 @@
 * {
-	padding: 0%;
-	margin: 0%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
 }
 
 body {
-	font-family: monospace, sans-serif;
-	font-size: 150%;
-	background-color: #A3A3A3;
+	margin: 0;
+	font-family: Arial, "Helvetica Neue", Heveltica, sans-serif;
+	font-size: 17px;
+	color: #E9EC37;
+	line-height: 1.6;
 }
 
-#title {
-	background-color: #353330;
-	color: white;
-	padding: 3%;
-	border: solid 10px black;
-}
-
-#title div {
-	display: inline-block;
-	width: 49%;
-}
-
-#title div a {
-	text-align: right;
-}
-
-#title a {
-	text-decoration: none;
-	color: white;
-}
-
-#title a:hover {
-	font-size: 30px;
-	text-shadow: 2px 2px gray;
-}
-
-#content {
-	margin-top: 5%;
-	padding: 2%;	
-}
-
-.project {
-	margin-top: 3%;
-}
-
-#more a {
-	color: black;
-}
-
-footer {
-	margin-top: 5%;
+#showcase {
+	background-image: url("files/programming.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-	background-color: #353330;
-	border: solid 10px black; 
-	padding: 3%;
-	color: white;
+	padding: 0 20px;
+}
+
+#showcase h1 {
+	font-size: 60px;
+	border: #000000 1px solid;
+	line-height: 1.2;
+}
+
+#showcase p {
+	font-size: 30px;
+	border: #000000 1px solid;
+}
+
+#showcase .button {
+	font-size: 25px;
+	color: #E9EC37;
+	background: #003c51;
+	border: #000000 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+#showcase .button:hover {
+	background: #051f2f;
+	color: #E9EC37;
+}
+
+#presentation {
+	background: #051f2f;
+	text-align: center;
+	padding: 40px;
+}
+
+#section-a {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	background: #051f2f;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+#section-a .box-1 {
+	display: flex;
+	flex-direction: column;
+	line-height: 5;	
+}
+
+#section-a img {
+	height: 7vh; 
+}
+
+#section-a .box-2 {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	line-height: 2;
+}
+
+#section-a .box-3 {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	line-height: 2;
+}
+
+#section-a .box-3 a {
+	height: 5vh;
 }
