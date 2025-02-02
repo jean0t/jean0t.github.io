@@ -1,70 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jean0t - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #121212;
-            color: #ffffff;
-            text-align: center;
-        }
-        .container {
-            max-width: 80%;
-            margin: 5% auto;
-            padding: 2%;
-        }
-        h1, h2 {
-            color: #4CAF50;
-        }
-        a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .projects {
-            margin-top: 2%;
-        }
-        .project {
-            margin: 1% 0;
-        }
-        .links {
-            margin-top: 2%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jean0t - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #1e1e1e, #121212);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #e0e0e0;
+    }
+    .container {
+      max-width: 90%;
+      margin: 5% auto;
+      padding: 2%;
+    }
+    header {
+      text-align: center;
+      padding: 2% 0;
+    }
+    h1 {
+      color: #4CAF50;
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      color: #4CAF50;
+      margin: 1em 0;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2%;
+      margin-top: 3%;
+    }
+    .project {
+      background-color: rgba(0, 0, 0, 0.3);
+      margin-top: 1%;
+      padding: 2%;
+      border-radius: 8px;
+      width: 28%;
+      box-shadow: 0 2% 8% rgba(0,0,0,0.5);
+      transition: transform 0.3s, background-color 0.3s;
+    }
+    .project:hover {
+      transform: translateY(-5%);
+      background-color: rgba(0,0,0,0.5);
+    }
+    .project a {
+      color: #4CAF50;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+    .links {
+      text-align: center;
+      margin-top: 3%;
+    }
+    .links a {
+      margin: 0 1%;
+      color: #4CAF50;
+      font-size: 1.2em;
+      text-decoration: none;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    @media(max-width: 768px) {
+      .project {
+        width: 45%;
+      }
+    }
+    @media(max-width: 480px) {
+      .project {
+        width: 90%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Jean0t</h1>
-        <p>Focused Backend Developer & Sysadmin</p>
-        <p>Passionate about <strong>C</strong>, <strong>Go</strong>, and <strong>Python</strong></p>
-        <p>Love working with <strong>Linux</strong>, especially <strong>Debian</strong>, <strong>Fedora</strong>, and <strong>Arch</strong></p>
-        <h2>Projects I Cherish</h2>
-        <div class="projects">
-            <div class="project">
-                <a href="https://github.com/jean0t/texed" target="_blank">Texed</a> - CLI text editor
-            </div>
-            <div class="project">
-                <a href="https://github.com/jean0t/mkbackup" target="_blank">MkBackup</a> - Packages files and directories into a compressed tarball for backup
-            </div>
-            <div class="project">
-                <a href="https://github.com/jean0t/youtube-audio-downloader" target="_blank">YouTube Audio Downloader</a> - Simplifies downloading audio using yt-dlp
-            </div>
-            <div class="project">
-                <a href="https://github.com/jean0t/passmanager" target="_blank">Passmanager</a> - Manages user credentials safely
-            </div>
-        </div>
-        <div class="links">
-            <h2>Find Me On</h2>
-            <p><a href="https://github.com/jean0t" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/joao-maurici0-m/" target="_blank">LinkedIn</a></p>
-        </div>
-    </div>
+  <div class="container">
+    <header>
+      <h1>Joao Mauricio</h1>
+      <p>Focused Backend Developer &amp; Sysadmin</p>
+      <p>Passionate about <strong>C</strong>, <strong>Go</strong>, and <strong>Python</strong></p>
+      <p>Love working with <strong>Linux</strong> - Emphasis on <strong>Debian</strong>, <strong>Fedora</strong>, and <strong>Arch</strong></p>
+    </header>
+    <section class="projects">
+      <div class="project">
+        <a href="https://github.com/jean0t/texed" target="_blank">Texed</a>
+        <p>CLI text editor made in Python</p>
+      </div>
+      <div class="project">
+        <a href="https://github.com/jean0t/mkbackup" target="_blank">MkBackup</a>
+        <p>Packages files and directories into a compressed tarball for backup</p>
+      </div>
+      <div class="project">
+        <a href="https://github.com/jean0t/youtube-audio-downloader" target="_blank">YouTube Audio Downloader</a>
+        <p>Simplifies downloading audio using yt-dlp</p>
+      </div>
+      <div class="project">
+        <a href="https://github.com/jean0t/passmanager" target="_blank">Passmanager</a>
+        <p>Manages user credentials safely</p>
+      </div>
+    </section>
+    <section class="links">
+      <h2>Find Me On</h2>
+      <a href="https://github.com/jean0t" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/joao-maurici0-m/" target="_blank">LinkedIn</a>
+    </section>
+  </div>
 </body>
 </html>
 
