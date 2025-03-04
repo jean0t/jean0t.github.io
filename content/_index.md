@@ -12,3 +12,5 @@ all the things that I've been learning.
   My posts are intended to be useful in a technical way, but I will
 also comment about news and things that appeal me and I feel the need
 to share.
+
+##### Also avaiable in [rss](./blog/index.xml)
