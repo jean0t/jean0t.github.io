@@ -14,3 +14,4 @@ also comment about news and things that appeal me and I feel the need
 to share.
 
 ##### Also avaiable in [rss](./blog/index.xml)
+##### See my [github](https://github.com/jean0t)
