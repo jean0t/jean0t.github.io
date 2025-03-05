@@ -2,5 +2,5 @@
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 date = {{ .Date }}
 draft = false
-tags = 'talks'
+tags = 'talk'
 +++

@@ -6,8 +6,15 @@
     <description>Recent content on Jean0t Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Mar 2025 00:26:48 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 22:46:03 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Browser Controversy</title>
+      <link>http://localhost:1313/blog/browser-controversy/</link>
+      <pubDate>Tue, 04 Mar 2025 22:46:03 -0300</pubDate>
+      <guid>http://localhost:1313/blog/browser-controversy/</guid>
+      <description>Recently we have seen the fuzz regarding the TOS1 (Term of Service) that Mozilla2 had updated on Firefox. I particularly found it quite provocative, same opinion as some users that agree with me and also switched browsers after that, that mozilla had crossed a line with their recent actions.&#xA;What actions were those? Removing the FAQ3 in their website stating that they would never sell user data, writting the TOS with a clause that would allow them to use their users data (which was revoked by mozilla afterwards, apparently there was some errors in the document, or simply because of the reaction by the community).</description>
+    </item>
     <item>
       <title>Hello World!</title>
       <link>http://localhost:1313/blog/first/</link>
