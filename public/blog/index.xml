@@ -6,8 +6,15 @@
     <description>Recent content in Blogs on Jean0t Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Mar 2025 22:46:03 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 07 Mar 2025 22:30:15 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Libre Software</title>
+      <link>http://localhost:1313/blog/libre-software/</link>
+      <pubDate>Fri, 07 Mar 2025 22:30:15 -0300</pubDate>
+      <guid>http://localhost:1313/blog/libre-software/</guid>
+      <description>Libre software is a concept that I dont see much nowadays, instead people prefer OSS (open source software), which is a reality that is kinda curious knowing that what came first was the concept of Free Software (as in freedom).&#xA;People mistake OSS for Free Software, I was included in this some days ago till I read the gnu manifesto about what it is exactly.&#xA;Free as Freedom The concept of Free Software lays in its foundations, the 4 essential freedoms:</description>
+    </item>
     <item>
       <title>Browser Controversy</title>
       <link>http://localhost:1313/blog/browser-controversy/</link>
