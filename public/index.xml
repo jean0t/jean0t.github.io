@@ -6,8 +6,15 @@
     <description>Recent content on Jean0t Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Mar 2025 22:30:15 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 09 Mar 2025 15:21:22 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Learn a New Programming Language</title>
+      <link>http://localhost:1313/blog/how-to-learn-a-new-programming-language/</link>
+      <pubDate>Sun, 09 Mar 2025 15:21:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/how-to-learn-a-new-programming-language/</guid>
+      <description>We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.&#xA;What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew.</description>
+    </item>
     <item>
       <title>Libre Software</title>
       <link>http://localhost:1313/blog/libre-software/</link>
