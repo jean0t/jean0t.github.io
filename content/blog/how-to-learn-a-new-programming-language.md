@@ -1,11 +1,7 @@
 +++
 title = "How to Learn a New Programming Language"
 date = "2025-03-09T15:21:22-03:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
+description = "technique to learn a new programming language efficiently and quickly"
 
 tags = ["programming","talk",]
 +++

@@ -1,11 +1,7 @@
 +++
 title = "Libre Software"
 date = "2025-03-07T22:30:15-03:00"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
+description = "Gnu and Libre software. How Free Software is related to privacy and security and why it is important for everyone"
 
 tags = ["privacy","talk",]
 +++
