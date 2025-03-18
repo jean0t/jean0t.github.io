@@ -6,8 +6,15 @@
     <description>Recent content in Programming on Jean0t Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Mar 2025 15:21:22 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 14:01:49 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Experience With Lisp</title>
+      <link>http://localhost:1313/blog/my-experience-with-lisp/</link>
+      <pubDate>Tue, 18 Mar 2025 14:01:49 -0300</pubDate>
+      <guid>http://localhost:1313/blog/my-experience-with-lisp/</guid>
+      <description>Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.&#xA;But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.</description>
+    </item>
     <item>
       <title>How to Learn a New Programming Language</title>
       <link>http://localhost:1313/blog/how-to-learn-a-new-programming-language/</link>
