@@ -2,53 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jean0t Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://jean0t.github.io/</link>
     <description>Recent content on Jean0t Blog</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Mar 2025 14:01:49 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Mar 2025 00:35:52 -0300</lastBuildDate><atom:link href="https://jean0t.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Work With the Filesystem in Python</title>
+      <link>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</link>
+      <pubDate>Sat, 29 Mar 2025 22:26:13 -0300</pubDate>
+      
+      <guid>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</guid>
+      <description>Python is one of the coolest programming language out there, capable, beautiful and versatile. We can argue about its speed and its true, it isnt the fastest programming language and if you need something to operate in real time, you wouldn&amp;rsquo;t choose it.
+BUT! It is a great tool to a lot of things, making scripts for automation is one of them, or building your own programs and in a lot of programs and scripts what we will be doing?</description>
+    </item>
+    
     <item>
       <title>My Experience With Lisp</title>
-      <link>http://localhost:1313/blog/my-experience-with-lisp/</link>
+      <link>https://jean0t.github.io/blog/my-experience-with-lisp/</link>
       <pubDate>Tue, 18 Mar 2025 14:01:49 -0300</pubDate>
-      <guid>http://localhost:1313/blog/my-experience-with-lisp/</guid>
-      <description>Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.&#xA;But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.</description>
+      
+      <guid>https://jean0t.github.io/blog/my-experience-with-lisp/</guid>
+      <description>Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.
+But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.</description>
     </item>
+    
     <item>
       <title>Why Linux Is the Best Os</title>
-      <link>http://localhost:1313/blog/why-linux-is-the-best-os/</link>
+      <link>https://jean0t.github.io/blog/why-linux-is-the-best-os/</link>
       <pubDate>Wed, 12 Mar 2025 00:05:08 -0300</pubDate>
-      <guid>http://localhost:1313/blog/why-linux-is-the-best-os/</guid>
-      <description>It is the best, period. I would give a million of reasons to use and why it is the best, but in this case it is highly recommend for everyone to search and try by itself.&#xA;It is secure As long as windows still have 70% of marketing share, the target for invasions and scammers will always be the most profitable targets, i.e. windows users that do not have any tech literacy.</description>
+      
+      <guid>https://jean0t.github.io/blog/why-linux-is-the-best-os/</guid>
+      <description>It is the best, period. I would give a million of reasons to use and why it is the best, but in this case it is highly recommend for everyone to search and try by itself.
+It is secure As long as windows still have 70% of marketing share, the target for invasions and scammers will always be the most profitable targets, i.e. windows users that do not have any tech literacy.</description>
     </item>
+    
     <item>
       <title>How to Learn a New Programming Language</title>
-      <link>http://localhost:1313/blog/how-to-learn-a-new-programming-language/</link>
+      <link>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</link>
       <pubDate>Sun, 09 Mar 2025 15:21:22 -0300</pubDate>
-      <guid>http://localhost:1313/blog/how-to-learn-a-new-programming-language/</guid>
-      <description>We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.&#xA;What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew.</description>
+      
+      <guid>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</guid>
+      <description>We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.
+What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew.</description>
     </item>
+    
     <item>
       <title>Libre Software</title>
-      <link>http://localhost:1313/blog/libre-software/</link>
+      <link>https://jean0t.github.io/blog/libre-software/</link>
       <pubDate>Fri, 07 Mar 2025 22:30:15 -0300</pubDate>
-      <guid>http://localhost:1313/blog/libre-software/</guid>
-      <description>Libre software is a concept that I dont see much nowadays, instead people prefer OSS (open source software), which is a reality that is kinda curious knowing that what came first was the concept of Free Software (as in freedom).&#xA;People mistake OSS for Free Software, I was included in this some days ago till I read the gnu manifesto about what it is exactly.&#xA;Free as Freedom The concept of Free Software lays in its foundations, the 4 essential freedoms:</description>
+      
+      <guid>https://jean0t.github.io/blog/libre-software/</guid>
+      <description>Libre software is a concept that I dont see much nowadays, instead people prefer OSS (open source software), which is a reality that is kinda curious knowing that what came first was the concept of Free Software (as in freedom).
+People mistake OSS for Free Software, I was included in this some days ago till I read the gnu manifesto about what it is exactly.
+Free as Freedom The concept of Free Software lays in its foundations, the 4 essential freedoms:</description>
     </item>
+    
     <item>
       <title>Browser Controversy</title>
-      <link>http://localhost:1313/blog/browser-controversy/</link>
+      <link>https://jean0t.github.io/blog/browser-controversy/</link>
       <pubDate>Tue, 04 Mar 2025 22:46:03 -0300</pubDate>
-      <guid>http://localhost:1313/blog/browser-controversy/</guid>
-      <description>Recently we have seen the fuzz regarding the TOS1 (Term of Service) that Mozilla2 had updated on Firefox. I particularly found it quite provocative, same opinion as some users that agree with me and also switched browsers after that, that mozilla had crossed a line with their recent actions.&#xA;What actions were those? Removing the FAQ3 in their website stating that they would never sell user data, writting the TOS with a clause that would allow them to use their users data (which was revoked by mozilla afterwards, apparently there was some errors in the document, or simply because of the reaction by the community).</description>
+      
+      <guid>https://jean0t.github.io/blog/browser-controversy/</guid>
+      <description>Recently we have seen the fuzz regarding the TOS1 (Term of Service) that Mozilla2 had updated on Firefox. I particularly found it quite provocative, same opinion as some users that agree with me and also switched browsers after that, that mozilla had crossed a line with their recent actions.
+What actions were those? Removing the FAQ3 in their website stating that they would never sell user data, writting the TOS with a clause that would allow them to use their users data (which was revoked by mozilla afterwards, apparently there was some errors in the document, or simply because of the reaction by the community).</description>
     </item>
+    
     <item>
       <title>Hello World!</title>
-      <link>http://localhost:1313/blog/first/</link>
+      <link>https://jean0t.github.io/blog/first/</link>
       <pubDate>Tue, 04 Mar 2025 00:26:48 -0300</pubDate>
-      <guid>http://localhost:1313/blog/first/</guid>
-      <description>This is my first blog post, I don&amp;rsquo;t have much to say because I put the things I intended for this one in the presentation of the blog :D&#xA;But as a programmer, I won&amp;rsquo;t make it pass without notice, the most important thing when starting a new project or learning a new language: Say hello to the whole world!&#xA;The best way is to do that with a new language I&amp;rsquo;ve been tweaking recently Common Lisp</description>
+      
+      <guid>https://jean0t.github.io/blog/first/</guid>
+      <description>This is my first blog post, I don&amp;rsquo;t have much to say because I put the things I intended for this one in the presentation of the blog :D
+But as a programmer, I won&amp;rsquo;t make it pass without notice, the most important thing when starting a new project or learning a new language: Say hello to the whole world!
+The best way is to do that with a new language I&amp;rsquo;ve been tweaking recently Common Lisp</description>
     </item>
+    
   </channel>
 </rss>

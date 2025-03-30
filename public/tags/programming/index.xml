@@ -1,26 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Jean0t Blog</title>
-    <link>http://localhost:1313/tags/programming/</link>
-    <description>Recent content in Programming on Jean0t Blog</description>
-    <generator>Hugo</generator>
+    <title>programming on Jean0t Blog</title>
+    <link>https://jean0t.github.io/tags/programming/</link>
+    <description>Recent content in programming on Jean0t Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Mar 2025 14:01:49 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Mar 2025 22:26:13 -0300</lastBuildDate><atom:link href="https://jean0t.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Work With the Filesystem in Python</title>
+      <link>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</link>
+      <pubDate>Sat, 29 Mar 2025 22:26:13 -0300</pubDate>
+      
+      <guid>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</guid>
+      <description>Python is one of the coolest programming language out there, capable, beautiful and versatile. We can argue about its speed and its true, it isnt the fastest programming language and if you need something to operate in real time, you wouldn&amp;rsquo;t choose it.
+BUT! It is a great tool to a lot of things, making scripts for automation is one of them, or building your own programs and in a lot of programs and scripts what we will be doing?</description>
+    </item>
+    
     <item>
       <title>My Experience With Lisp</title>
-      <link>http://localhost:1313/blog/my-experience-with-lisp/</link>
+      <link>https://jean0t.github.io/blog/my-experience-with-lisp/</link>
       <pubDate>Tue, 18 Mar 2025 14:01:49 -0300</pubDate>
-      <guid>http://localhost:1313/blog/my-experience-with-lisp/</guid>
-      <description>Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.&#xA;But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.</description>
+      
+      <guid>https://jean0t.github.io/blog/my-experience-with-lisp/</guid>
+      <description>Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.
+But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.</description>
     </item>
+    
     <item>
       <title>How to Learn a New Programming Language</title>
-      <link>http://localhost:1313/blog/how-to-learn-a-new-programming-language/</link>
+      <link>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</link>
       <pubDate>Sun, 09 Mar 2025 15:21:22 -0300</pubDate>
-      <guid>http://localhost:1313/blog/how-to-learn-a-new-programming-language/</guid>
-      <description>We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.&#xA;What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew.</description>
+      
+      <guid>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</guid>
+      <description>We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.
+What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew.</description>
     </item>
+    
   </channel>
 </rss>

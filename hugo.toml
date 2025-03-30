@@ -2,8 +2,9 @@ baseURL = "https://jean0t.github.io/"
 languageCode = 'en-us'
 title = "Jean0t Blog"
 theme = "hugo-bearblog"
+taxonomy = ["HTML", "RSS"]
+pygmentsStyle = "github"
 
 [outputs]
 home = ["HTML", "RSS"]
 section = ["HTML", "RSS"]
-taxonomy = ["HTML", "RSS"]
