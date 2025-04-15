@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = "Jean0t Blog"
 theme = "hugo-bearblog"
 taxonomy = ["HTML", "RSS"]
-pygmentsStyle = "github"
+pygmentsStyle = "github-dark"
 
 [outputs]
 home = ["HTML", "RSS"]
