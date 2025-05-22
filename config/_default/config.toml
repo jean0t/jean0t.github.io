@@ -16,7 +16,7 @@ lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [params.sidebar]
 compact = false
-subtitle = "Love programming, math and to share what I know with other people."
+subtitle = "I love programming, math and to share what I know with other people."
 
 [params.article]
 headingAnchor = false
@@ -102,7 +102,7 @@ admin = "Admin"
 
 [[menu.main]]
     name = "Github"
-    url = "github.com/jean0t"
+    url = "https://github.com/jean0t"
     weight = 10
     identifier = "github"
     [menu.main.params]
