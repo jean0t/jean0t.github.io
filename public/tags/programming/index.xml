@@ -1,41 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>programming on Jean0t Blog</title>
-    <link>https://jean0t.github.io/tags/programming/</link>
-    <description>Recent content in programming on Jean0t Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 29 Mar 2025 22:26:13 -0300</lastBuildDate><atom:link href="https://jean0t.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to Work With the Filesystem in Python</title>
-      <link>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</link>
-      <pubDate>Sat, 29 Mar 2025 22:26:13 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</guid>
-      <description>Python is one of the coolest programming language out there, capable, beautiful and versatile. We can argue about its speed and its true, it isnt the fastest programming language and if you need something to operate in real time, you wouldn&amp;rsquo;t choose it.
-BUT! It is a great tool to a lot of things, making scripts for automation is one of them, or building your own programs and in a lot of programs and scripts what we will be doing?</description>
-    </item>
-    
-    <item>
-      <title>My Experience With Lisp</title>
-      <link>https://jean0t.github.io/blog/my-experience-with-lisp/</link>
-      <pubDate>Tue, 18 Mar 2025 14:01:49 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/my-experience-with-lisp/</guid>
-      <description>Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.
-But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.</description>
-    </item>
-    
-    <item>
-      <title>How to Learn a New Programming Language</title>
-      <link>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</link>
-      <pubDate>Sun, 09 Mar 2025 15:21:22 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</guid>
-      <description>We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.
-What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Programming on Jean0t Blog</title>
+        <link>http://localhost:1313/tags/programming/</link>
+        <description>Recent content in Programming on Jean0t Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sat, 29 Mar 2025 22:26:13 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/programming/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to Work With the Filesystem in Python</title>
+        <link>http://localhost:1313/post/how-to-work-with-the-filesystem-in-python/how-to-work-with-the-filesystem-in-python/</link>
+        <pubDate>Sat, 29 Mar 2025 22:26:13 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/how-to-work-with-the-filesystem-in-python/how-to-work-with-the-filesystem-in-python/</guid>
+        <description>&lt;p&gt;Python is one of the coolest programming language out there, capable, beautiful and versatile. We can argue about its speed and its true, it isnt the fastest programming language and if you need something to operate in real time, you wouldn&amp;rsquo;t choose it.&lt;br&gt;
+BUT! It is a great tool to a lot of things, making scripts for automation is one of them, or building your own programs and in a lot of programs and scripts what we will be doing? Exactly, file system manipulations! May it be to create files, to read files if they do exist or to iterate over files in a directory.&lt;/p&gt;
+&lt;p&gt;My goal with this article is to make you capable of working with files in an easy way as I do now. I only see tutorials of people using complicated manipulations of strings using the OS modules, but it is so&amp;hellip; complex needlessly&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;what-we-will-use&#34;&gt;What we will use
+&lt;/h2&gt;&lt;p&gt;Python offers a great module called &lt;code&gt;pathlib&lt;/code&gt; that helps us manipulate the file system with ease and sometimes even cross platform manipulations that work in both linux and windows.&lt;br&gt;
+First off, go read the documentation &lt;a class=&#34;link&#34; href=&#34;https://docs.python.org/3/library/pathlib.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;&lt;br&gt;
+You will familiarize yourself with the functions and also use it as a wiki later when searching for a function or method.&lt;/p&gt;
+&lt;h2 id=&#34;what-it-can-do&#34;&gt;What it can do
+&lt;/h2&gt;&lt;p&gt;We will be using the class &lt;code&gt;Path&lt;/code&gt;, so the basic use for pathlib is simply start by importing it that way:&lt;br&gt;
+&lt;code&gt;from pathlib import Path&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;Get the home directory dynamically&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;pathlib&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;import&lt;/span&gt; Path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;home_directory &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; Path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;home()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this case we didn&amp;rsquo;t instanciate the Path class, but used a static method of it.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Iterate in directories&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;pathlib&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;import&lt;/span&gt; Path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;directory &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; Path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;home() &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Downloads&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;for&lt;/span&gt; file &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;in&lt;/span&gt; directory&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;iterdir():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#ff7b72&#34;&gt;if&lt;/span&gt; file&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;is_file():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		print(file)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This example is silly but really instructive, we are getting the downloads directory from the home in a dynamic way! We can instanciate a path and use this &lt;code&gt;/ &#39;directory&#39;&lt;/code&gt; to get the directory we want. After that we iterate over the directory with method &lt;code&gt;path.iterdir()&lt;/code&gt; that returns a generator with the items in the directory, then we make an if statement that analyses if it is a normal file (not a directory or symlinks or whatever) and prints if it fulfills the requirement.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Read/Write from files&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;pathlib&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;import&lt;/span&gt; Path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;file &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; Path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;home() &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;random_file.txt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;file&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;write_text(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;I will write this to the file&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;# it will write the string there&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;# after writing we can read it easily also&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;file&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;read_text() &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;# it will return the contents of the file as a string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;See? Really easy to manipulate files, we also have write_bytes() and read_bytes() if you are working with bytes.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Creating directories&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;pathlib&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;import&lt;/span&gt; Path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;new_directory_path &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; Path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;home() &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;SomeNewDirectory&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;AnotherDirectory&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;new_directory_path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;mkdir(mode&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;0o777&lt;/span&gt;, parents&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#79c0ff&#34;&gt;True&lt;/span&gt;, exist_ok&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#79c0ff&#34;&gt;True&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this case we declare 2 directories, one inside another and we used it with the method &lt;code&gt;mkdir()&lt;/code&gt;. Pay attention to the parameters we included.
+&lt;code&gt;mode=0o777&lt;/code&gt; indicates the mode it will be created, basically the permissions the directory will have, if you are familiar with linux you will understand it, the 0o indicates it is Octal.&lt;br&gt;
+&lt;code&gt;parents=True&lt;/code&gt; indicates that the parents of the directory you want yo be created will also be created if missing, works the same as &lt;code&gt;mkdir -p&lt;/code&gt;, otherwise it will throw an error.&lt;br&gt;
+&lt;code&gt;exist_ok=True&lt;/code&gt; avoids the exception to be raised, because if the directory already exists and exists_ok is false, then it will stop the execution due to an exception.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;It is an amazing module, don&amp;rsquo;t you think? Since I discovered it I use everytime I need to make file manipulations and what catches me is how low is the number of people talking about it, at least in the posts about python I see.&lt;br&gt;
+I hope you have enjoyed and learned something new today that you will start applying in your projects or who knows refactoring an old project that used the OS module and is full of complicated string manipulations.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>My Experience With Lisp</title>
+        <link>http://localhost:1313/post/my-experience-with-lisp/my-experience-with-lisp/</link>
+        <pubDate>Tue, 18 Mar 2025 14:01:49 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/my-experience-with-lisp/my-experience-with-lisp/</guid>
+        <description>&lt;p&gt;Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.&lt;br&gt;
+But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works
+&lt;/h2&gt;&lt;p&gt;Lisp is a confusion of parenthesis, at least that is what you will see when you get a lisp code to read, but in the middle of these parenthesis lies a coherent syntax and ellegant solutions to programming problems.&lt;br&gt;
+It works with the use of S-Expressions, that is basically a beautiful name to expressions that looks like:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#d2a8ff;font-weight:bold&#34;&gt;format&lt;/span&gt; &lt;span style=&#34;color:#79c0ff;font-weight:bold&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Hello world&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(&amp;lt;function&amp;gt; &amp;lt;arguments&amp;gt;)&lt;/p&gt;
+&lt;p&gt;And there are concepts like, atoms, cons, etc.&lt;br&gt;
+One thing that in my opinion is the most important to know about lisp, is that it isnt a language like javascript, java or C#, but a concept that can be implemented in different ways. Knowing that will make it less strange when you hear about &amp;rsquo;lisp dialects&amp;rsquo;, they are basically the lisp concept applied in some ways, some more different than others, but that is it.&lt;/p&gt;
+&lt;h2 id=&#34;my-experience&#34;&gt;My experience
+&lt;/h2&gt;&lt;p&gt;Lisp was my go-to after I wanted to try something different, after 3 days of study I had already long lost the fear I felt over its parenthesis and things started making sense to me. I am not proficient yet to built a DE in lisp yet, but I am confident that I can at least make some web applications through hunchtooth.&lt;br&gt;
+Ive learned about other lisp dialects and the one I am seeing the most after the starting in this journey with common lisp is the guile implementation of scheme (Scheme is considered lisp 1 while common lisp is considered lisp 2). Guile is really nice, but its functions and way of working is too different from the common lisp, it is taking me a while to figure out and internalize the differences haha.&lt;br&gt;
+But both are crazy awesome and fun to tinker with.&lt;/p&gt;
+&lt;h2 id=&#34;is-lisp-dead&#34;&gt;Is Lisp Dead?
+&lt;/h2&gt;&lt;p&gt;Yes, I thought it was, but once you get into its ecosystem you see that there are a lot of people working with lisp and maintaining, keeping it alive and always innovating.&lt;br&gt;
+It has its own libraries and frameworks, its macros that can modify the language to accept new paradigms and everything! It is not widely known and used like Java for enterprise solutions, but closure is a dialect of lisp that is quite used and known, more than its standard (common lisp).&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;Lisp isn&amp;rsquo;t a dead language and it is quite exciting to try out sometimes. It has a community and mature libraries to serious development but not much margin in enterprise application, although it can change (are you a CEO? why not try out lisp?) with companies using it in their software development and developers building more libraries and apps with Lisp.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>How to Learn a New Programming Language</title>
+        <link>http://localhost:1313/post/how-to-learn-a-new-programming-language/how-to-learn-a-new-programming-language/</link>
+        <pubDate>Sun, 09 Mar 2025 15:21:22 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/how-to-learn-a-new-programming-language/how-to-learn-a-new-programming-language/</guid>
+        <description>&lt;p&gt;We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.&lt;br&gt;
+What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew. I am experiencing that with common lisp (I will make a report about it later).&lt;/p&gt;
+&lt;h2 id=&#34;how-to-master-it-quickly&#34;&gt;How to Master It Quickly?
+&lt;/h2&gt;&lt;p&gt;Simple and easy, at least this method I have, you probably have other, which I respect, but this is one I use and recommend. Remember those bothersome algorithms you had to implement in your language when you were at college? Or the algorithms people bothered you saying that they were fundamental? Yeah, I ve come here to tell you the same.&lt;br&gt;
+Those algorithms, may it be sorting or searching and much more, are great ways to practice in 2 things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Function names and conventions&lt;/li&gt;
+&lt;li&gt;Data Structures, loops, decision operators&amp;hellip; Briefly the syntax&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And you also get fundamental knowledge in Computer Science that is great for interviews at companies.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,9 +1,11 @@
 baseURL = "https://jean0t.github.io/"
 languageCode = 'en-us'
 title = "Jean0t Blog"
-theme = "hugo-bearblog"
 taxonomy = ["HTML", "RSS"]
 pygmentsStyle = "github-dark"
+
+[[module.imports]]
+path = "hugo-theme-stack"
 
 [outputs]
 home = ["HTML", "RSS"]

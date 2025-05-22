@@ -2,48 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jean0t.github.io/blog/</loc>
+    <loc>http://localhost:1313/post/golang-is-amazing/golang-is-amazing/</loc>
+    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/talk/</loc>
+    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/how-to-use-ai-in-programming/how-to-use-ai-in-programming/</loc>
+    <lastmod>2025-04-15T17:01:39-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/how-to-work-with-the-filesystem-in-python/how-to-work-with-the-filesystem-in-python/</loc>
     <lastmod>2025-03-29T22:26:13-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2025-03-29T22:26:13-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/tags/programming/</loc>
-    <lastmod>2025-03-29T22:26:13-03:00</lastmod>
-  </url><url>
-    <loc>https://jean0t.github.io/tags/</loc>
-    <lastmod>2025-03-29T22:26:13-03:00</lastmod>
-  </url><url>
-    <loc>https://jean0t.github.io/blog/my-experience-with-lisp/</loc>
+    <loc>http://localhost:1313/post/my-experience-with-lisp/my-experience-with-lisp/</loc>
     <lastmod>2025-03-18T14:01:49-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/tags/talk/</loc>
-    <lastmod>2025-03-18T14:01:49-03:00</lastmod>
-  </url><url>
-    <loc>https://jean0t.github.io/tags/operational-system/</loc>
+    <loc>http://localhost:1313/tags/operational-system/</loc>
     <lastmod>2025-03-12T00:05:08-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/blog/why-linux-is-the-best-os/</loc>
+    <loc>http://localhost:1313/post/why-linux-is-the-best-os/why-linux-is-the-best-os/</loc>
     <lastmod>2025-03-12T00:05:08-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</loc>
+    <loc>http://localhost:1313/post/how-to-learn-a-new-programming-language/how-to-learn-a-new-programming-language/</loc>
     <lastmod>2025-03-09T15:21:22-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/blog/libre-software/</loc>
+    <loc>http://localhost:1313/post/libre-software/libre-software/</loc>
     <lastmod>2025-03-07T22:30:15-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/tags/privacy/</loc>
+    <loc>http://localhost:1313/tags/privacy/</loc>
     <lastmod>2025-03-07T22:30:15-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/blog/browser-controversy/</loc>
+    <loc>http://localhost:1313/post/browser-controversy/browser-controversy/</loc>
     <lastmod>2025-03-04T22:46:03-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/</loc>
-    <lastmod>2025-03-04T00:35:52-03:00</lastmod>
-  </url><url>
-    <loc>https://jean0t.github.io/blog/first/</loc>
+    <loc>http://localhost:1313/post/first-post/first/</loc>
     <lastmod>2025-03-04T00:26:48-03:00</lastmod>
   </url><url>
-    <loc>https://jean0t.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

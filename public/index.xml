@@ -1,83 +1,280 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Jean0t Blog</title>
-    <link>https://jean0t.github.io/</link>
-    <description>Recent content on Jean0t Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 04 Mar 2025 00:35:52 -0300</lastBuildDate><atom:link href="https://jean0t.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to Work With the Filesystem in Python</title>
-      <link>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</link>
-      <pubDate>Sat, 29 Mar 2025 22:26:13 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/how-to-work-with-the-filesystem-in-python/</guid>
-      <description>Python is one of the coolest programming language out there, capable, beautiful and versatile. We can argue about its speed and its true, it isnt the fastest programming language and if you need something to operate in real time, you wouldn&amp;rsquo;t choose it.
-BUT! It is a great tool to a lot of things, making scripts for automation is one of them, or building your own programs and in a lot of programs and scripts what we will be doing?</description>
-    </item>
-    
-    <item>
-      <title>My Experience With Lisp</title>
-      <link>https://jean0t.github.io/blog/my-experience-with-lisp/</link>
-      <pubDate>Tue, 18 Mar 2025 14:01:49 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/my-experience-with-lisp/</guid>
-      <description>Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.
-But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.</description>
-    </item>
-    
-    <item>
-      <title>Why Linux Is the Best Os</title>
-      <link>https://jean0t.github.io/blog/why-linux-is-the-best-os/</link>
-      <pubDate>Wed, 12 Mar 2025 00:05:08 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/why-linux-is-the-best-os/</guid>
-      <description>It is the best, period. I would give a million of reasons to use and why it is the best, but in this case it is highly recommend for everyone to search and try by itself.
-It is secure As long as windows still have 70% of marketing share, the target for invasions and scammers will always be the most profitable targets, i.e. windows users that do not have any tech literacy.</description>
-    </item>
-    
-    <item>
-      <title>How to Learn a New Programming Language</title>
-      <link>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</link>
-      <pubDate>Sun, 09 Mar 2025 15:21:22 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/how-to-learn-a-new-programming-language/</guid>
-      <description>We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.
-What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew.</description>
-    </item>
-    
-    <item>
-      <title>Libre Software</title>
-      <link>https://jean0t.github.io/blog/libre-software/</link>
-      <pubDate>Fri, 07 Mar 2025 22:30:15 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/libre-software/</guid>
-      <description>Libre software is a concept that I dont see much nowadays, instead people prefer OSS (open source software), which is a reality that is kinda curious knowing that what came first was the concept of Free Software (as in freedom).
-People mistake OSS for Free Software, I was included in this some days ago till I read the gnu manifesto about what it is exactly.
-Free as Freedom The concept of Free Software lays in its foundations, the 4 essential freedoms:</description>
-    </item>
-    
-    <item>
-      <title>Browser Controversy</title>
-      <link>https://jean0t.github.io/blog/browser-controversy/</link>
-      <pubDate>Tue, 04 Mar 2025 22:46:03 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/browser-controversy/</guid>
-      <description>Recently we have seen the fuzz regarding the TOS1 (Term of Service) that Mozilla2 had updated on Firefox. I particularly found it quite provocative, same opinion as some users that agree with me and also switched browsers after that, that mozilla had crossed a line with their recent actions.
-What actions were those? Removing the FAQ3 in their website stating that they would never sell user data, writting the TOS with a clause that would allow them to use their users data (which was revoked by mozilla afterwards, apparently there was some errors in the document, or simply because of the reaction by the community).</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://jean0t.github.io/blog/first/</link>
-      <pubDate>Tue, 04 Mar 2025 00:26:48 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/first/</guid>
-      <description>This is my first blog post, I don&amp;rsquo;t have much to say because I put the things I intended for this one in the presentation of the blog :D
-But as a programmer, I won&amp;rsquo;t make it pass without notice, the most important thing when starting a new project or learning a new language: Say hello to the whole world!
-The best way is to do that with a new language I&amp;rsquo;ve been tweaking recently Common Lisp</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Jean0t Blog</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on Jean0t Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 21 May 2025 23:10:27 -0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Golang Is Amazing</title>
+        <link>http://localhost:1313/post/golang-is-amazing/golang-is-amazing/</link>
+        <pubDate>Wed, 21 May 2025 23:10:27 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/golang-is-amazing/golang-is-amazing/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>How to Use Ai in Programming</title>
+        <link>http://localhost:1313/post/how-to-use-ai-in-programming/how-to-use-ai-in-programming/</link>
+        <pubDate>Tue, 15 Apr 2025 17:01:39 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/how-to-use-ai-in-programming/how-to-use-ai-in-programming/</guid>
+        <description>&lt;p&gt;AI today is a hot topic, everywhere on the news, everyone is using, making lots of money, may it be producing GPUs, scraping data, training&amp;hellip; But the tools are available for us to use for free, we have OSS models and free use in chatgpt daily that we can use to improve ourselves, but how?&lt;/p&gt;
+&lt;h2 id=&#34;dimissing-some-misconceptions-and-learning-about-the-tool&#34;&gt;Dimissing some misconceptions and learning about the tool
+&lt;/h2&gt;&lt;h3 id=&#34;ai-is-100-correct-all-the-time-i-swear&#34;&gt;AI is 100% correct all the time, I swear!
+&lt;/h3&gt;&lt;p&gt;The AI is really good, too good to be true in truth. Its answers are too cool and well made to be fake, right? right?! Well, no. First thing we need to dismiss is that idea that the AI is correct all the time because of its well formed answers.&lt;br&gt;
+That is why my first tip is, at least have an idea about what you will ask, not the whole thing, of course, because the point in using AI is to learn new topics, for it to be a documentation on doping, but sometimes it derails with information that isn&amp;rsquo;t true or mixed, to not go along with it having a rough idea of the topic before using is really important.&lt;/p&gt;
+&lt;h3 id=&#34;ai-will-make-all-my-work-in-the-future-and-take-my-job&#34;&gt;AI will make all my work in the future and take my job!
+&lt;/h3&gt;&lt;p&gt;Yes, unfortunately I want to say that you will be unemployed and serving the machines in the future, so at least say &amp;rsquo;thank you&amp;rsquo; after asking anything to the LLMs you use ^-^.&lt;br&gt;
+Yes, it was a joke, but I am joking with something a lot of people say seriously that I don&amp;rsquo;t agree. A lot will be get with AI, some jobs will indeed have less need for a lot of workers because AI will be a great assistant, but intelectual jobs will always exist, AI can only produce material using as base its training data, which means only replicating.&lt;br&gt;
+Using AI and knowing how it can be a good assistant will be a better effort than despairing about it taking over your job and not having your income anymore.&lt;br&gt;
+Also notice that I focused in intellectual labor, physical labor also isn&amp;rsquo;t affected by AI since it is restricted to computer and internet right now. Maybe robots in the future&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;how-to-use-the-ai-chat-correctly-prompt-engineering-or-however-you-call-it&#34;&gt;How to use the AI chat correctly (prompt engineering or however you call it)
+&lt;/h2&gt;&lt;h3 id=&#34;help-in-projects&#34;&gt;Help in projects
+&lt;/h3&gt;&lt;p&gt;First you have a task you want help to accomplish, let&amp;rsquo;s say you want to know how to make an API in FastAPI but you only know what an API is, never worked with FastAPI before, what do you do now?&lt;br&gt;
+You declared what you wanted to do: make an API in fast api, great, the first step was done, now you need to provide context for the AI to analyze and answer accordingly.&lt;br&gt;
+Remember when I said about having a rough idea? That is where it enters, before making a project in programming you know you need to prepare the environment.&lt;br&gt;
+The prompt will be constructed in that way: context + task + result wanted&lt;br&gt;
+It will be something like that:&lt;br&gt;
+&lt;code&gt;I am a junior programmer that knows little about fastapi, I am responsible for creating an API with it, but before programming I want you to prepare the environment and guide me along the commands explaining me each step&lt;/code&gt;&lt;br&gt;
+What this prompt shows? your context (junior developer, responsible for creating an API), task (prepare for create an API, organize the setup), result (environment prepared and explanation for each step).&lt;br&gt;
+What it does? It says what you want and it will be also saved as context for the chatgpt, because it now knows you will use &lt;code&gt;FastAPI&lt;/code&gt; and will build an API, also for it to provide explanations for each step since you explicitely told to be inexperienced.&lt;/p&gt;
+&lt;h3 id=&#34;help-to-study&#34;&gt;Help to Study
+&lt;/h3&gt;&lt;p&gt;The outcome in this section wont be different from before, you can provide a prompt that asks for a direction or an explanation for the AI, but I want to specify a few things. Before you do have in mind 2 things.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;You will ask for something and its explanation, understand each step so you can reproduce or change the AI results (of course if you wish to learn it, if it is only production, just ignore and copy the outcome to paste somewhere else).&lt;/li&gt;
+&lt;li&gt;You will need to provide context about what you are doing and what you want to do, if it is related to programming, specify the name of classes/functions, what is the purpose of each and what they do, it helps to get more quality in the answer.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;I know this post is simple, but I hope it was of help to you. I made this post with chatgpt in mind, but in case you want to run a local model, I want to recommend you to look into the project &lt;a class=&#34;link&#34; href=&#34;https://ollama.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ollama&lt;/a&gt;, but be aware that you have to have a dedicated GPU to get good results and run big models.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>How to Work With the Filesystem in Python</title>
+        <link>http://localhost:1313/post/how-to-work-with-the-filesystem-in-python/how-to-work-with-the-filesystem-in-python/</link>
+        <pubDate>Sat, 29 Mar 2025 22:26:13 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/how-to-work-with-the-filesystem-in-python/how-to-work-with-the-filesystem-in-python/</guid>
+        <description>&lt;p&gt;Python is one of the coolest programming language out there, capable, beautiful and versatile. We can argue about its speed and its true, it isnt the fastest programming language and if you need something to operate in real time, you wouldn&amp;rsquo;t choose it.&lt;br&gt;
+BUT! It is a great tool to a lot of things, making scripts for automation is one of them, or building your own programs and in a lot of programs and scripts what we will be doing? Exactly, file system manipulations! May it be to create files, to read files if they do exist or to iterate over files in a directory.&lt;/p&gt;
+&lt;p&gt;My goal with this article is to make you capable of working with files in an easy way as I do now. I only see tutorials of people using complicated manipulations of strings using the OS modules, but it is so&amp;hellip; complex needlessly&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;what-we-will-use&#34;&gt;What we will use
+&lt;/h2&gt;&lt;p&gt;Python offers a great module called &lt;code&gt;pathlib&lt;/code&gt; that helps us manipulate the file system with ease and sometimes even cross platform manipulations that work in both linux and windows.&lt;br&gt;
+First off, go read the documentation &lt;a class=&#34;link&#34; href=&#34;https://docs.python.org/3/library/pathlib.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;&lt;br&gt;
+You will familiarize yourself with the functions and also use it as a wiki later when searching for a function or method.&lt;/p&gt;
+&lt;h2 id=&#34;what-it-can-do&#34;&gt;What it can do
+&lt;/h2&gt;&lt;p&gt;We will be using the class &lt;code&gt;Path&lt;/code&gt;, so the basic use for pathlib is simply start by importing it that way:&lt;br&gt;
+&lt;code&gt;from pathlib import Path&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;Get the home directory dynamically&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;pathlib&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;import&lt;/span&gt; Path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;home_directory &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; Path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;home()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this case we didn&amp;rsquo;t instanciate the Path class, but used a static method of it.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Iterate in directories&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;pathlib&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;import&lt;/span&gt; Path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;directory &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; Path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;home() &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Downloads&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;for&lt;/span&gt; file &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;in&lt;/span&gt; directory&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;iterdir():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#ff7b72&#34;&gt;if&lt;/span&gt; file&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;is_file():
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;		print(file)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This example is silly but really instructive, we are getting the downloads directory from the home in a dynamic way! We can instanciate a path and use this &lt;code&gt;/ &#39;directory&#39;&lt;/code&gt; to get the directory we want. After that we iterate over the directory with method &lt;code&gt;path.iterdir()&lt;/code&gt; that returns a generator with the items in the directory, then we make an if statement that analyses if it is a normal file (not a directory or symlinks or whatever) and prints if it fulfills the requirement.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Read/Write from files&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;pathlib&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;import&lt;/span&gt; Path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;file &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; Path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;home() &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;random_file.txt&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;file&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;write_text(&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;I will write this to the file&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;# it will write the string there&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;# after writing we can read it easily also&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;file&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;read_text() &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;# it will return the contents of the file as a string&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;See? Really easy to manipulate files, we also have write_bytes() and read_bytes() if you are working with bytes.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Creating directories&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff7b72&#34;&gt;from&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;pathlib&lt;/span&gt; &lt;span style=&#34;color:#ff7b72&#34;&gt;import&lt;/span&gt; Path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;new_directory_path &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt; Path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;home() &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;SomeNewDirectory&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;AnotherDirectory&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;new_directory_path&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;.&lt;/span&gt;mkdir(mode&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;0o777&lt;/span&gt;, parents&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#79c0ff&#34;&gt;True&lt;/span&gt;, exist_ok&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#79c0ff&#34;&gt;True&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In this case we declare 2 directories, one inside another and we used it with the method &lt;code&gt;mkdir()&lt;/code&gt;. Pay attention to the parameters we included.
+&lt;code&gt;mode=0o777&lt;/code&gt; indicates the mode it will be created, basically the permissions the directory will have, if you are familiar with linux you will understand it, the 0o indicates it is Octal.&lt;br&gt;
+&lt;code&gt;parents=True&lt;/code&gt; indicates that the parents of the directory you want yo be created will also be created if missing, works the same as &lt;code&gt;mkdir -p&lt;/code&gt;, otherwise it will throw an error.&lt;br&gt;
+&lt;code&gt;exist_ok=True&lt;/code&gt; avoids the exception to be raised, because if the directory already exists and exists_ok is false, then it will stop the execution due to an exception.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;It is an amazing module, don&amp;rsquo;t you think? Since I discovered it I use everytime I need to make file manipulations and what catches me is how low is the number of people talking about it, at least in the posts about python I see.&lt;br&gt;
+I hope you have enjoyed and learned something new today that you will start applying in your projects or who knows refactoring an old project that used the OS module and is full of complicated string manipulations.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>My Experience With Lisp</title>
+        <link>http://localhost:1313/post/my-experience-with-lisp/my-experience-with-lisp/</link>
+        <pubDate>Tue, 18 Mar 2025 14:01:49 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/my-experience-with-lisp/my-experience-with-lisp/</guid>
+        <description>&lt;p&gt;Lisp is the second oldest high level language, younger only to Fortran, which was an inspiration for its creation. And as many people I was baffled by its parenthesis and syntax, I thought it was counter intuitive and possibly hard to use compared to traditional C like langauges.&lt;br&gt;
+But! After engaging in learning it for a few days I learned its true value, I used it to practice algorithms like sorting and searching and one of its values was to allow me to understand recursion better, before it was an abstract context but now it is a concrete thing that I use if I need to.&lt;/p&gt;
+&lt;h2 id=&#34;how-it-works&#34;&gt;How it works
+&lt;/h2&gt;&lt;p&gt;Lisp is a confusion of parenthesis, at least that is what you will see when you get a lisp code to read, but in the middle of these parenthesis lies a coherent syntax and ellegant solutions to programming problems.&lt;br&gt;
+It works with the use of S-Expressions, that is basically a beautiful name to expressions that looks like:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#d2a8ff;font-weight:bold&#34;&gt;format&lt;/span&gt; &lt;span style=&#34;color:#79c0ff;font-weight:bold&#34;&gt;t&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Hello world&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(&amp;lt;function&amp;gt; &amp;lt;arguments&amp;gt;)&lt;/p&gt;
+&lt;p&gt;And there are concepts like, atoms, cons, etc.&lt;br&gt;
+One thing that in my opinion is the most important to know about lisp, is that it isnt a language like javascript, java or C#, but a concept that can be implemented in different ways. Knowing that will make it less strange when you hear about &amp;rsquo;lisp dialects&amp;rsquo;, they are basically the lisp concept applied in some ways, some more different than others, but that is it.&lt;/p&gt;
+&lt;h2 id=&#34;my-experience&#34;&gt;My experience
+&lt;/h2&gt;&lt;p&gt;Lisp was my go-to after I wanted to try something different, after 3 days of study I had already long lost the fear I felt over its parenthesis and things started making sense to me. I am not proficient yet to built a DE in lisp yet, but I am confident that I can at least make some web applications through hunchtooth.&lt;br&gt;
+Ive learned about other lisp dialects and the one I am seeing the most after the starting in this journey with common lisp is the guile implementation of scheme (Scheme is considered lisp 1 while common lisp is considered lisp 2). Guile is really nice, but its functions and way of working is too different from the common lisp, it is taking me a while to figure out and internalize the differences haha.&lt;br&gt;
+But both are crazy awesome and fun to tinker with.&lt;/p&gt;
+&lt;h2 id=&#34;is-lisp-dead&#34;&gt;Is Lisp Dead?
+&lt;/h2&gt;&lt;p&gt;Yes, I thought it was, but once you get into its ecosystem you see that there are a lot of people working with lisp and maintaining, keeping it alive and always innovating.&lt;br&gt;
+It has its own libraries and frameworks, its macros that can modify the language to accept new paradigms and everything! It is not widely known and used like Java for enterprise solutions, but closure is a dialect of lisp that is quite used and known, more than its standard (common lisp).&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;Lisp isn&amp;rsquo;t a dead language and it is quite exciting to try out sometimes. It has a community and mature libraries to serious development but not much margin in enterprise application, although it can change (are you a CEO? why not try out lisp?) with companies using it in their software development and developers building more libraries and apps with Lisp.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Why Linux Is the Best Os</title>
+        <link>http://localhost:1313/post/why-linux-is-the-best-os/why-linux-is-the-best-os/</link>
+        <pubDate>Wed, 12 Mar 2025 00:05:08 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/why-linux-is-the-best-os/why-linux-is-the-best-os/</guid>
+        <description>&lt;p&gt;It is the best, period. I would give a million of reasons to use and why it is the best, but in this case it is highly recommend for everyone to search and try by itself.&lt;/p&gt;
+&lt;h2 id=&#34;it-is-secure&#34;&gt;It is secure
+&lt;/h2&gt;&lt;p&gt;As long as windows still have 70% of marketing share, the target for invasions and scammers will always be the most profitable targets, i.e. windows users that do not have any tech literacy.&lt;br&gt;
+Windows did a great job at popularizing computers and does a good job for casual users, but let&amp;rsquo;s be honest, privacy isn&amp;rsquo;t really a thing there, you are sending microsoft your data everytime, a thing that could be hijacked by an experient hacker, also it is the main OS targeted by hackers and corporations that want to exploit information.&lt;br&gt;
+On the other hand linux was always not main stream, those interested by it was always professionals that wanted performance and security, most of the applications avaiable are self hosting, or if they arent, there is always an option waiting to be found by you.&lt;br&gt;
+That being the case, the tech literate public wouldnt be so easy exploit as ignorants and also, the public was so small, it isnt a good pay off for exploits, it means less people wanting to target you and more security.&lt;br&gt;
+We could also talk about apple, but&amp;hellip; it is like windows, a good system with lots of normies, but I wont repeat myself and focus in a new thing.&lt;/p&gt;
+&lt;h2 id=&#34;the-license&#34;&gt;The license
+&lt;/h2&gt;&lt;p&gt;It might not look like a big thing, but trust me, it is. Windows is a private piece of software, which means that errors are at the mercy of the company developers. If you need something to be solved, just wait for them to decide to do it, even if you report, you also dont know how they actually work and how they manage the information in the OS.&lt;br&gt;
+Linux is GPL-2, which means that it is free to study and modify, actually it has a lot of already forked projects like libre kernel or other specialized kernels that I forgot (but there is even for gaming and low latency, truly amazing!). It is a good thing for the intelectual part, but it also means that you can actually see how things are done, increasing our trust in the product, people can actually change and solve problems they have by themselves without waiting for someone to do it, or pay someone to solve for them. Lots of advantages!&lt;/p&gt;
+&lt;h2 id=&#34;and-more&#34;&gt;And more&amp;hellip;
+&lt;/h2&gt;&lt;p&gt;Customization is something people love to do, but you cant do much outside linux, here we can change from icons to the entire desktop environment, even create your own (just need to study the source code to do it).&lt;/p&gt;
+&lt;h2 id=&#34;my-recommendations&#34;&gt;My recommendations
+&lt;/h2&gt;&lt;p&gt;For beginners that do not want to study about linux, go to distributions like Linux mint, Ubuntu, Pop OS or Mx Linux.&lt;br&gt;
+For users that want to learn more about the OS, try Arch linux, gentoo, debian or fedora. The last 2 might seem for beginners, but if you actually use and study it you will see its true value, while Arch and Gentoo, I don&amp;rsquo;t even need to mention it, even the installation is done manually. (Special mention to Slackware)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you want to try an even more underground system, try the BSDs, they are the directly son of the original unix.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>How to Learn a New Programming Language</title>
+        <link>http://localhost:1313/post/how-to-learn-a-new-programming-language/how-to-learn-a-new-programming-language/</link>
+        <pubDate>Sun, 09 Mar 2025 15:21:22 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/how-to-learn-a-new-programming-language/how-to-learn-a-new-programming-language/</guid>
+        <description>&lt;p&gt;We as programmers are always seeking new things to learn and tinker a bit, may it reinvent some wheel or simply to have fun with a new tools and programming languages are part of these tools we pick to play a little bit, some remain with us longer than others, but we always have our favorite.&lt;br&gt;
+What we want when we get a new programming language is to learn it to a good level as fast as possible, I always feel it, you probably do too, but it is complicated when the language has a lot of different features, functions name and etc that are completely different from what we knew. I am experiencing that with common lisp (I will make a report about it later).&lt;/p&gt;
+&lt;h2 id=&#34;how-to-master-it-quickly&#34;&gt;How to Master It Quickly?
+&lt;/h2&gt;&lt;p&gt;Simple and easy, at least this method I have, you probably have other, which I respect, but this is one I use and recommend. Remember those bothersome algorithms you had to implement in your language when you were at college? Or the algorithms people bothered you saying that they were fundamental? Yeah, I ve come here to tell you the same.&lt;br&gt;
+Those algorithms, may it be sorting or searching and much more, are great ways to practice in 2 things:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Function names and conventions&lt;/li&gt;
+&lt;li&gt;Data Structures, loops, decision operators&amp;hellip; Briefly the syntax&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;And you also get fundamental knowledge in Computer Science that is great for interviews at companies.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Libre Software</title>
+        <link>http://localhost:1313/post/libre-software/libre-software/</link>
+        <pubDate>Fri, 07 Mar 2025 22:30:15 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/libre-software/libre-software/</guid>
+        <description>&lt;p&gt;Libre software is a concept that I dont see much nowadays, instead people prefer OSS (open source software), which is a reality that is kinda curious knowing that what came first was the concept of Free Software (as in freedom).&lt;br&gt;
+People mistake OSS for Free Software, I was included in this some days ago till I read the &lt;a class=&#34;link&#34; href=&#34;https://www.gnu.org/philosophy/philosophy.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gnu manifesto&lt;/a&gt; about what it is exactly.&lt;/p&gt;
+&lt;h2 id=&#34;free-as-freedom&#34;&gt;Free as Freedom
+&lt;/h2&gt;&lt;p&gt;The concept of Free Software lays in its foundations, the 4 essential freedoms:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use the code for what you want&lt;/li&gt;
+&lt;li&gt;See the code and study how it works&lt;/li&gt;
+&lt;li&gt;Redistribute copies so others can have contact with it&lt;/li&gt;
+&lt;li&gt;Modify the code and share that modified copy to others&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As you can see, these freedoms guarantee a colaborative spirit over the program and also the security and privacy of its user, by being able to see the source code you know that there is no data being shared to third parties by the program itself, nor any malware like keylogger or others.&lt;/p&gt;
+&lt;h2 id=&#34;oss-as-subvertion&#34;&gt;OSS as subvertion
+&lt;/h2&gt;&lt;p&gt;Then we reach another concept that looks similar, but it is not, the Open Source Software. People nowadays use it with the same connotation as free software thinking they are similar, but the ethics of free software are lost with OSS as companies learned how to use it to its benefit.&lt;br&gt;
+A company can keep its codebase closed while exposing non critical parts of its system to the public, receiving contributions and also the propaganda of being free and supportive to the community, but in really it is not that way.&lt;br&gt;
+OSS became a way to receive contribution from programmers for free and to make propaganda of the brand as  they respect the &amp;lsquo;privacy&amp;rsquo; and &amp;lsquo;freedom&amp;rsquo; of its users.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;Everything has a good and a bad side, but in terms of privacy I think the FOSS is more coherent with my vision over it. OSS is good, but it doesn&amp;rsquo;t entails all the philosophy and conclusions taken by the FOSS regarding its users, simply opening the code doesn&amp;rsquo;t means that it is safe as it can represent only a small part of a bigger system.&lt;br&gt;
+It is important more and more developers produce more free software so we can secure a future without us being dependant of software that we do not know how they work and how they do what they do, if they are safe to use or not, only we, as a community working together, can make it possible to exist.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Browser Controversy</title>
+        <link>http://localhost:1313/post/browser-controversy/browser-controversy/</link>
+        <pubDate>Tue, 04 Mar 2025 22:46:03 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/browser-controversy/browser-controversy/</guid>
+        <description>&lt;p&gt;Recently we have seen the fuzz regarding the TOS&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; (Term of Service) that Mozilla&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; had updated on Firefox. I particularly found it quite provocative, same opinion as some users that agree with me and also switched browsers after that, that mozilla had crossed a line with their recent actions.&lt;/p&gt;
+&lt;p&gt;What actions were those? Removing the FAQ&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; in their website stating that they would never sell user data, writting the TOS with a clause that would allow them to use their users data (which was revoked by mozilla afterwards, apparently there was some errors in the document, or simply because of the reaction by the community).&lt;/p&gt;
+&lt;p&gt;Those things look kinda trivial for those that do not care much about their online privacy and data, but we are in a time that people like me that do worry about those things have scarse options of apps and services that actually preserve data. This situation regarding firefox is quite bothersome because it is one of the few alternatives we have, specially in browser, when all the other options are chromium wrappers&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-now&#34;&gt;What now?
+&lt;/h2&gt;&lt;p&gt;If you will remain using firefox or if you don&amp;rsquo;t use it at all, this shows how the things are moving towards a world we might not be owners of our own data and browsers that are the main way to connect to internet are an indispensable software nowadays and the main source of our worry if we want to interact online with privacy and security.&lt;/p&gt;
+&lt;p&gt;I will give some of my suggestions for those that want to move from firefox to another browser or that are starting to mind about their privacy.&lt;/p&gt;
+&lt;h3 id=&#34;recommendations&#34;&gt;Recommendations
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://librewolf.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Librewolf&lt;/a&gt;: A fork of firefox with more concern about privacy, has built in options like disabling features that are used for fingerprint, comes with ublock origin built in.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://floorp.app/en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Floorp&lt;/a&gt;: Another fork of firefox without mozilla.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://qutebrowser.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Qutebrowser&lt;/a&gt;: More advanced browser that is based in the QTWebEngine (chromium but without google stuff), decent adblock and use keyboard to interact (also work with the mouse but the keyboard is the focus).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://brave.com/pt-br/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Brave&lt;/a&gt;: A chromium based browser with built in ad blocker and is OSS, currently I use this one.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;the part regarding the TOS causing worry is that one: &lt;em&gt;You give Mozilla the rights necessary to operate Firefox. This includes processing your data as we describe in the Firefox Privacy Notice. It also includes a nonexclusive, royalty-free, worldwide license for the purpose of doing as you request with the content you input in Firefox. This does not give Mozilla any ownership in that content.&lt;/em&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Mozilla is a free software community founded in 1998 by members of Netscape. The Mozilla community uses, develops, publishes and supports Mozilla products. The community is supported institutionally by the non-profit Mozilla Foundation and its tax-paying subsidiary, the Mozilla Corporation.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Modifications in the FAQ can be seen &lt;a class=&#34;link&#34; href=&#34;https://github.com/mozilla/bedrock/commit/d459addab846d8144b61939b7f4310eb80c5470e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Here&lt;/a&gt; and you can compare the &lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20250130114707/https://www.mozilla.org/en-US/firefox/faq/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;old page&lt;/a&gt; with the &lt;a class=&#34;link&#34; href=&#34;https://www.mozilla.org/en-US/firefox/faq/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;new one&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Browsers like brave, opera, vivaldi, chrome, edge all are powered by the chromium project, which is an OSS web browser that is used as the base for all those projects and more. They all share differences, but it doesn&amp;rsquo;t alter the fact they are all dependent of google and the chromium project that maintains all this ecosystem. Firefox uses another engine called gecko.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>Hello World!</title>
+        <link>http://localhost:1313/post/first-post/first/</link>
+        <pubDate>Tue, 04 Mar 2025 00:26:48 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/first-post/first/</guid>
+        <description>&lt;p&gt;This is my first blog post, I don&amp;rsquo;t have much to say because I put the things I intended for this one in the presentation of the blog :D&lt;br&gt;
+But as a programmer, I won&amp;rsquo;t make it pass without notice, the most important thing when starting a new project or learning a new language: &lt;em&gt;Say hello to the whole world!&lt;/em&gt;&lt;br&gt;
+The best way is to do that with a new language I&amp;rsquo;ve been tweaking recently &lt;a class=&#34;link&#34; href=&#34;https://lisp-lang.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;em&gt;Common Lisp&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lisp&#34; data-lang=&#34;lisp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#d2a8ff;font-weight:bold&#34;&gt;write-line&lt;/span&gt; &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        
+    </channel>
 </rss>

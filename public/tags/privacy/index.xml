@@ -1,32 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>privacy on Jean0t Blog</title>
-    <link>https://jean0t.github.io/tags/privacy/</link>
-    <description>Recent content in privacy on Jean0t Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 07 Mar 2025 22:30:15 -0300</lastBuildDate><atom:link href="https://jean0t.github.io/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Libre Software</title>
-      <link>https://jean0t.github.io/blog/libre-software/</link>
-      <pubDate>Fri, 07 Mar 2025 22:30:15 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/libre-software/</guid>
-      <description>Libre software is a concept that I dont see much nowadays, instead people prefer OSS (open source software), which is a reality that is kinda curious knowing that what came first was the concept of Free Software (as in freedom).
-People mistake OSS for Free Software, I was included in this some days ago till I read the gnu manifesto about what it is exactly.
-Free as Freedom The concept of Free Software lays in its foundations, the 4 essential freedoms:</description>
-    </item>
-    
-    <item>
-      <title>Browser Controversy</title>
-      <link>https://jean0t.github.io/blog/browser-controversy/</link>
-      <pubDate>Tue, 04 Mar 2025 22:46:03 -0300</pubDate>
-      
-      <guid>https://jean0t.github.io/blog/browser-controversy/</guid>
-      <description>Recently we have seen the fuzz regarding the TOS1 (Term of Service) that Mozilla2 had updated on Firefox. I particularly found it quite provocative, same opinion as some users that agree with me and also switched browsers after that, that mozilla had crossed a line with their recent actions.
-What actions were those? Removing the FAQ3 in their website stating that they would never sell user data, writting the TOS with a clause that would allow them to use their users data (which was revoked by mozilla afterwards, apparently there was some errors in the document, or simply because of the reaction by the community).</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Privacy on Jean0t Blog</title>
+        <link>http://localhost:1313/tags/privacy/</link>
+        <description>Recent content in Privacy on Jean0t Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 07 Mar 2025 22:30:15 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/privacy/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Libre Software</title>
+        <link>http://localhost:1313/post/libre-software/libre-software/</link>
+        <pubDate>Fri, 07 Mar 2025 22:30:15 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/libre-software/libre-software/</guid>
+        <description>&lt;p&gt;Libre software is a concept that I dont see much nowadays, instead people prefer OSS (open source software), which is a reality that is kinda curious knowing that what came first was the concept of Free Software (as in freedom).&lt;br&gt;
+People mistake OSS for Free Software, I was included in this some days ago till I read the &lt;a class=&#34;link&#34; href=&#34;https://www.gnu.org/philosophy/philosophy.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;gnu manifesto&lt;/a&gt; about what it is exactly.&lt;/p&gt;
+&lt;h2 id=&#34;free-as-freedom&#34;&gt;Free as Freedom
+&lt;/h2&gt;&lt;p&gt;The concept of Free Software lays in its foundations, the 4 essential freedoms:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use the code for what you want&lt;/li&gt;
+&lt;li&gt;See the code and study how it works&lt;/li&gt;
+&lt;li&gt;Redistribute copies so others can have contact with it&lt;/li&gt;
+&lt;li&gt;Modify the code and share that modified copy to others&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As you can see, these freedoms guarantee a colaborative spirit over the program and also the security and privacy of its user, by being able to see the source code you know that there is no data being shared to third parties by the program itself, nor any malware like keylogger or others.&lt;/p&gt;
+&lt;h2 id=&#34;oss-as-subvertion&#34;&gt;OSS as subvertion
+&lt;/h2&gt;&lt;p&gt;Then we reach another concept that looks similar, but it is not, the Open Source Software. People nowadays use it with the same connotation as free software thinking they are similar, but the ethics of free software are lost with OSS as companies learned how to use it to its benefit.&lt;br&gt;
+A company can keep its codebase closed while exposing non critical parts of its system to the public, receiving contributions and also the propaganda of being free and supportive to the community, but in really it is not that way.&lt;br&gt;
+OSS became a way to receive contribution from programmers for free and to make propaganda of the brand as  they respect the &amp;lsquo;privacy&amp;rsquo; and &amp;lsquo;freedom&amp;rsquo; of its users.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;Everything has a good and a bad side, but in terms of privacy I think the FOSS is more coherent with my vision over it. OSS is good, but it doesn&amp;rsquo;t entails all the philosophy and conclusions taken by the FOSS regarding its users, simply opening the code doesn&amp;rsquo;t means that it is safe as it can represent only a small part of a bigger system.&lt;br&gt;
+It is important more and more developers produce more free software so we can secure a future without us being dependant of software that we do not know how they work and how they do what they do, if they are safe to use or not, only we, as a community working together, can make it possible to exist.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Browser Controversy</title>
+        <link>http://localhost:1313/post/browser-controversy/browser-controversy/</link>
+        <pubDate>Tue, 04 Mar 2025 22:46:03 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/browser-controversy/browser-controversy/</guid>
+        <description>&lt;p&gt;Recently we have seen the fuzz regarding the TOS&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; (Term of Service) that Mozilla&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; had updated on Firefox. I particularly found it quite provocative, same opinion as some users that agree with me and also switched browsers after that, that mozilla had crossed a line with their recent actions.&lt;/p&gt;
+&lt;p&gt;What actions were those? Removing the FAQ&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt; in their website stating that they would never sell user data, writting the TOS with a clause that would allow them to use their users data (which was revoked by mozilla afterwards, apparently there was some errors in the document, or simply because of the reaction by the community).&lt;/p&gt;
+&lt;p&gt;Those things look kinda trivial for those that do not care much about their online privacy and data, but we are in a time that people like me that do worry about those things have scarse options of apps and services that actually preserve data. This situation regarding firefox is quite bothersome because it is one of the few alternatives we have, specially in browser, when all the other options are chromium wrappers&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;what-now&#34;&gt;What now?
+&lt;/h2&gt;&lt;p&gt;If you will remain using firefox or if you don&amp;rsquo;t use it at all, this shows how the things are moving towards a world we might not be owners of our own data and browsers that are the main way to connect to internet are an indispensable software nowadays and the main source of our worry if we want to interact online with privacy and security.&lt;/p&gt;
+&lt;p&gt;I will give some of my suggestions for those that want to move from firefox to another browser or that are starting to mind about their privacy.&lt;/p&gt;
+&lt;h3 id=&#34;recommendations&#34;&gt;Recommendations
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://librewolf.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Librewolf&lt;/a&gt;: A fork of firefox with more concern about privacy, has built in options like disabling features that are used for fingerprint, comes with ublock origin built in.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://floorp.app/en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Floorp&lt;/a&gt;: Another fork of firefox without mozilla.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://qutebrowser.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Qutebrowser&lt;/a&gt;: More advanced browser that is based in the QTWebEngine (chromium but without google stuff), decent adblock and use keyboard to interact (also work with the mouse but the keyboard is the focus).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://brave.com/pt-br/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Brave&lt;/a&gt;: A chromium based browser with built in ad blocker and is OSS, currently I use this one.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;the part regarding the TOS causing worry is that one: &lt;em&gt;You give Mozilla the rights necessary to operate Firefox. This includes processing your data as we describe in the Firefox Privacy Notice. It also includes a nonexclusive, royalty-free, worldwide license for the purpose of doing as you request with the content you input in Firefox. This does not give Mozilla any ownership in that content.&lt;/em&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;Mozilla is a free software community founded in 1998 by members of Netscape. The Mozilla community uses, develops, publishes and supports Mozilla products. The community is supported institutionally by the non-profit Mozilla Foundation and its tax-paying subsidiary, the Mozilla Corporation.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;Modifications in the FAQ can be seen &lt;a class=&#34;link&#34; href=&#34;https://github.com/mozilla/bedrock/commit/d459addab846d8144b61939b7f4310eb80c5470e&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Here&lt;/a&gt; and you can compare the &lt;a class=&#34;link&#34; href=&#34;https://web.archive.org/web/20250130114707/https://www.mozilla.org/en-US/firefox/faq/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;old page&lt;/a&gt; with the &lt;a class=&#34;link&#34; href=&#34;https://www.mozilla.org/en-US/firefox/faq/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;new one&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;Browsers like brave, opera, vivaldi, chrome, edge all are powered by the chromium project, which is an OSS web browser that is used as the base for all those projects and more. They all share differences, but it doesn&amp;rsquo;t alter the fact they are all dependent of google and the chromium project that maintains all this ecosystem. Firefox uses another engine called gecko.&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
