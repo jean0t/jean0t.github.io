@@ -42,7 +42,7 @@ local = true
 src = "img/knuckles.jpg"
 
 [params.article.license]
-enabled = false
+enabled = true
 default = "Licensed under CC BY-NC-SA 4.0"
 
 [params.comments.disqusjs]
@@ -91,20 +91,16 @@ admin = "Admin"
 
 
 [menu]
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 10
-    identifier = "home"
-    [menu.main.params]
-        icon = "home"
-        newTab = false
-
-[[menu.main]]
+[[menu.social]]
     name = "Github"
     url = "https://github.com/jean0t"
-    weight = 10
     identifier = "github"
-    [menu.main.params]
+    [menu.social.params]
         icon = "brand-github"
-        newTab = true
+
+[[menu.social]]
+    name = "Rss"
+    url = "https://jean0t.github.io/index.xml"
+    identifier = "Rss"
+    [menu.social.params]
+        icon = "rss"
