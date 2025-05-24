@@ -2,6 +2,7 @@
 mainSections = [ "post",]
 featuredImageField = "image"
 rssFullContent = true
+favicon = "/favicon.png"
 
 [module.hugoVersion]
 extended = true

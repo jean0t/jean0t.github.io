@@ -8,11 +8,31 @@
         <language>en-us</language>
         <lastBuildDate>Wed, 21 May 2025 23:10:27 -0300</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Golang Is Amazing</title>
-        <link>http://localhost:1313/post/golang-is-amazing/golang-is-amazing/</link>
+        <link>http://localhost:1313/post/golang-is-amazing/</link>
         <pubDate>Wed, 21 May 2025 23:10:27 -0300</pubDate>
         
-        <guid>http://localhost:1313/post/golang-is-amazing/golang-is-amazing/</guid>
-        <description></description>
+        <guid>http://localhost:1313/post/golang-is-amazing/</guid>
+        <description>&lt;p&gt;Golang is the greatest language to build things&amp;hellip; for me. Many developers will have a different opinion, some may be right, others not so much&amp;hellip; (javascript and java), but the thing is that much of the way we do things are determined by the tools we use and I really like Golang for the way it works.&lt;/p&gt;
+&lt;h2 id=&#34;gopher-is-the-fastest-animal&#34;&gt;gopher is the fastest animal
+&lt;/h2&gt;&lt;p&gt;Golang was made with speed in mind, speed to compile, speed in performance and network protocols. It translates in compilation that takes miliseconds, easy thread (really, it is a piece of cake, I love it so much, it is so good) and a default networking module that can handles almost everything (although there are modules that improve its performance).&lt;/p&gt;
+&lt;h2 id=&#34;gopher-is-cute-and-nice-too-look-at-it&#34;&gt;gopher is cute and nice too look at it
+&lt;/h2&gt;&lt;p&gt;Look at this beautiful baby &lt;br&gt;
+&lt;img src=&#34;http://localhost:1313/post/golang-is-amazing/Gopher.jpg&#34;
+	width=&#34;1152&#34;
+	height=&#34;768&#34;
+	srcset=&#34;http://localhost:1313/post/golang-is-amazing/Gopher_hu_7a4c8271c9a3575.jpg 480w, http://localhost:1313/post/golang-is-amazing/Gopher_hu_8e973d3adbcd6d22.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;gopher&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;150&#34;
+		data-flex-basis=&#34;360px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;that is exactly how a golang code looks like, strange at first glimpse but after carefully view, you can notice how cool it is and how easy is to understand the things written.&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>How to Use Ai in Programming</title>
