@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/golang-is-amazing/</loc>
-    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
+    <lastmod>2025-05-25T21:01:17-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
+    <lastmod>2025-05-25T21:01:17-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-21T23:10:27-03:00</lastmod>
+    <lastmod>2025-05-25T21:01:17-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/talk/</loc>
+    <lastmod>2025-05-25T21:01:17-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/the-burden-of-being-up-to-date/</loc>
+    <lastmod>2025-05-25T21:01:17-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/golang-is-amazing/</loc>
     <lastmod>2025-05-21T23:10:27-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/how-to-use-ai-in-programming/how-to-use-ai-in-programming/</loc>
