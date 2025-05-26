@@ -2,7 +2,6 @@
 title: "The Burden of Being Up to Date"
 description: "It is a self reflection about programming"
 date: 2025-05-25T21:01:17-03:00
-image: "cape.jpg"
 math: 
 license: 
 hidden: false
