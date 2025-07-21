@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/post/i-finished-a-project-in-golang-and-what-it-teached-me/</loc>
+    <lastmod>2025-07-20T13:39:25-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-25T21:01:17-03:00</lastmod>
+    <lastmod>2025-07-20T13:39:25-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-05-25T21:01:17-03:00</lastmod>
+    <lastmod>2025-07-20T13:39:25-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-05-25T21:01:17-03:00</lastmod>

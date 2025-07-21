@@ -6,7 +6,26 @@
         <description>Recent content in Posts on Jean0t Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 25 May 2025 21:01:17 -0300</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 20 Jul 2025 13:39:25 -0300</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>I Finished a Project in Golang and What It Teached Me</title>
+        <link>http://localhost:1313/post/i-finished-a-project-in-golang-and-what-it-teached-me/</link>
+        <pubDate>Sun, 20 Jul 2025 13:39:25 -0300</pubDate>
+        
+        <guid>http://localhost:1313/post/i-finished-a-project-in-golang-and-what-it-teached-me/</guid>
+        <description>&lt;h2 id=&#34;the-goal-for-the-project&#34;&gt;The goal for the project
+&lt;/h2&gt;&lt;p&gt;I made a project called EurekaFile in golang. What I intended with it was to practice authentication with jwt, work with routes, database with postgres, middleware and even forms with upload and to a special mention the views template html.&lt;br&gt;
+It was a project that took me a wide range of areas in web dev and it was really productive to practice all of that.&lt;/p&gt;
+&lt;h2 id=&#34;what-was-the-teaching&#34;&gt;What was the teaching
+&lt;/h2&gt;&lt;p&gt;This project, that could be briefly described as &amp;lsquo;I practiced everything I mentioned before&amp;rsquo;, but it wouldn&amp;rsquo;t be enough nor true. The biggest teaching was psychological, the discipline to start a project and actually finish, the goal at the end and the will to seek solutions when troubles arose, to test my knowledge and see in practice if I really knew what I thought I knew.&lt;br&gt;
+All that wouldn&amp;rsquo;t be able to be seen if not by really using and applying in a project.&lt;/p&gt;
+&lt;h2 id=&#34;what-it-can-teach-to-others&#34;&gt;What It can teach to others
+&lt;/h2&gt;&lt;p&gt;Whenever we are making a project, in the meantime we can have a lot of cool ideas for other projects, it can seduce us to start it and leave the last project to be forever unfinished. Just like many distro hop from linux distributions, we do the same with programming projects when we are starting and it can be quite harmful, I wouldn&amp;rsquo;t be able to reach a point of testing database migrations, applying the postgres db knowledge nor showing it in the view if it wasn&amp;rsquo;t for all the structure I made before to make it possible.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;I will conclude with a simple phrase: It is better to deep into a project we started, than reach the first stage of a lot of new ones without getting any real value from it.&lt;br&gt;
+Great projects we will create, but will and discipline are the necessary to actually put it to work. That being said, stay strong and keep pushing 💪&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>The Burden of Being Up to Date</title>
         <link>http://localhost:1313/post/the-burden-of-being-up-to-date/</link>
         <pubDate>Sun, 25 May 2025 21:01:17 -0300</pubDate>
