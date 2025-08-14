@@ -105,3 +105,15 @@ admin = "Admin"
     identifier = "Rss"
     [menu.social.params]
         icon = "rss"
+
+[[menu.social]]
+    name = "Email"
+    url = "mailto:joaomouryf@hotmail.com"
+    identifier = "Email"
+    [menu.social.params]
+        icon = "messages"
+
+[[menu.social]]
+    name = "Freelancer"
+    url = "https://www.fiverr.com/n0tamod"
+    identifier = "Freelancer"
