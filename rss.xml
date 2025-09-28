@@ -1,13 +1,2 @@
 <?xml version="1.0"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>jean0t Blog</title> <link></link> <atom:link href="/rss.xml" rel="self" type="application/rss+xml" /> <language>en-us</language> <pubDate>Sat, 27 Sep 2025 22:42:27 -0300</pubDate> <item> <title>why common lisp became my favorite</title> <link>/posts/why-common-lisp-became-my-favorite.html</link> <pubDate>2025-09-27 21:28:15</pubDate> <author>jean0t</author> <guid isPermaLink="true">/posts/why-common-lisp-became-my-favorite.html</guid> <category><![CDATA[ common lisp ]]></category><category><![CDATA[ programming ]]></category> <description><![CDATA[ <!-- **** your post here (remove this line) **** -->
-
-<!-- format: could be 'html' (for raw html) or 'md' (for markdown).  -->
-
-<p>Here is my content.</p>
-
-<!--more-->
-
-<p>Excerpt separator can also be extracted from content.
-Add <code>excerpt: &lt;string&gt;</code> to the above metadata.
-Excerpt separator is <code>&lt;!--more--&gt;</code> by default.</p>
- ]]></description> </item> </channel> </rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> <channel> <title>jean0t Blog</title> <link></link> <atom:link href="/rss.xml" rel="self" type="application/rss+xml" /> <language>en-us</language> <pubDate>Sun, 28 Sep 2025 19:13:54 -0300</pubDate> <item> <title>why common lisp became my favorite</title> <link>/posts/why-common-lisp-became-my-favorite.html</link> <pubDate>2025-09-27 21:28:15</pubDate> <author>jean0t</author> <guid isPermaLink="true">/posts/why-common-lisp-became-my-favorite.html</guid> <category><![CDATA[ common lisp ]]></category><category><![CDATA[ programming ]]></category> <description><![CDATA[  ]]></description> </item> </channel> </rss>

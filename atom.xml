@@ -1,13 +1,2 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom"> <title>jean0t Blog</title> <link href=""/> <link type="application/atom+xml" rel="self" href="/atom.xml"/> <updated>Sat, 27 Sep 2025 22:42:27 -0300</updated> <author> <name>jean0t</name> </author> <entry> <link type="text/html" rel="alternate" href="/posts/why-common-lisp-became-my-favorite.html"/> <title>why common lisp became my favorite</title> <published>2025-09-27 21:28:15</published> <updated>2025-09-27 21:28:15</updated> <author> <name>jean0t</name> <uri></uri> </author> <content type="html">&lt;!-- **** your post here (remove this line) **** --&gt;
-
-&lt;!-- format: could be &#039;html&#039; (for raw html) or &#039;md&#039; (for markdown).  --&gt;
-
-&lt;p&gt;Here is my content.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Excerpt separator can also be extracted from content.
-Add &lt;code&gt;excerpt: &amp;lt;string&amp;gt;&lt;/code&gt; to the above metadata.
-Excerpt separator is &lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt; by default.&lt;/p&gt;
-</content> </entry> </feed>
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>jean0t Blog</title> <link href=""/> <link type="application/atom+xml" rel="self" href="/atom.xml"/> <updated>Sun, 28 Sep 2025 19:13:54 -0300</updated> <author> <name>jean0t</name> </author> <entry> <link type="text/html" rel="alternate" href="/posts/why-common-lisp-became-my-favorite.html"/> <title>why common lisp became my favorite</title> <published>2025-09-27 21:28:15</published> <updated>2025-09-27 21:28:15</updated> <author> <name>jean0t</name> <uri></uri> </author> <content type="html"></content> </entry> </feed>
