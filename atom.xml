@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom"> <title>jean0t Blog</title> <link href=""/> <link type="application/atom+xml" rel="self" href="/atom.xml"/> <updated>Sun, 28 Sep 2025 21:16:31 -0300</updated> <author> <name>jean0t</name> </author> <entry> <link type="text/html" rel="alternate" href="/posts/why-common-lisp-became-my-favorite.html"/> <title>why common lisp became my favorite</title> <published>2025-09-27 21:28:15</published> <updated>2025-09-27 21:28:15</updated> <author> <name>jean0t</name> <uri></uri> </author> <content type="html">&lt;p&gt;I came from a background of python/golang programming, my first contact with programming was with python, then I studied C to get to know systems programming and understand better about memory with pointers... golang was kind of my favorite language during a lot of time, because it was a simple and direct syntax with some built in niceties like map or slices (which in C must be done manually).  &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"> <title>jean0t Blog</title> <link href=""/> <link type="application/atom+xml" rel="self" href="/atom.xml"/> <updated>Sun, 12 Oct 2025 20:01:12 -0300</updated> <author> <name>jean0t</name> </author> <entry> <link type="text/html" rel="alternate" href="/posts/why-common-lisp-became-my-favorite.html"/> <title>why common lisp became my favorite</title> <published>2025-09-27 21:28:15</published> <updated>2025-09-27 21:28:15</updated> <author> <name>jean0t</name> <uri></uri> </author> <content type="html">&lt;p&gt;I came from a background of python/golang programming, my first contact with programming was with python, then I studied C to get to know systems programming and understand better about memory with pointers... golang was kind of my favorite language during a lot of time, because it has a simple and direct syntax with some built in niceties like map or slices (which in C must be done manually).  &lt;/p&gt;
 
 &lt;p&gt;However after some time I got kinda bored, the tools were amazing but I didn&#039;t feel the ecstasy of exploring new features or syntax, I had heard about lisp before, although I disregarded it because I thought it was esoteric (which was synonym of uselessly complex and hard) to do things.  &lt;/p&gt;
 
@@ -7,7 +7,7 @@
 
 &lt;h4&gt;Why it is so good?&lt;/h4&gt;
 
-&lt;p&gt;As previously menitoned, I like simple and direct languages, but I also love to explore new syntaxes and ways of working. Lisp is a definition, which means a lot of &#039;dialects&#039; of it exist, each with its functins, modules and uses.&lt;br/&gt;
+&lt;p&gt;As previously menitoned, I like simple and direct languages, but I also love to explore new syntaxes and ways of working. Lisp is a definition, which means a lot of &#039;dialects&#039; of it exist, each with its functions, modules and uses.&lt;br/&gt;
 However that is one of its best features and how it shiny: the previsibility and stability. Its syntax is the same, no matter the dialect you will always have the basic:&lt;br/&gt;
 &lt;code&gt;
 (function arg1 arg2 ... argN)
