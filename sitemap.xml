@@ -1,2 +1,31 @@
-<?xml version="1.0"?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'> <url> <loc>/</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/sitemap.xml</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/tag/programming.html</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/tag/common-lisp.html</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/date/2025-09.html</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/1.html</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/atom.xml</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/rss.xml</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/tag/lisp-atom.xml</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/tag/lisp-rss.xml</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/posts/why-common-lisp-became-my-favorite.html</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/about.html</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url><url> <loc>/archive.html</loc> <lastmod>Sun, 12 Oct 2025 20:01:12 -0300</lastmod> </url> </urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jean0t.github.io/tags/common-lisp/</loc>
+    <lastmod>2025-11-01T00:37:00-03:00</lastmod>
+  </url><url>
+    <loc>https://jean0t.github.io/</loc>
+    <lastmod>2025-11-01T00:37:00-03:00</lastmod>
+  </url><url>
+    <loc>https://jean0t.github.io/tags/opinion/</loc>
+    <lastmod>2025-11-01T00:37:00-03:00</lastmod>
+  </url><url>
+    <loc>https://jean0t.github.io/posts/</loc>
+    <lastmod>2025-11-01T00:37:00-03:00</lastmod>
+  </url><url>
+    <loc>https://jean0t.github.io/tags/programming/</loc>
+    <lastmod>2025-11-01T00:37:00-03:00</lastmod>
+  </url><url>
+    <loc>https://jean0t.github.io/tags/</loc>
+    <lastmod>2025-11-01T00:37:00-03:00</lastmod>
+  </url><url>
+    <loc>https://jean0t.github.io/posts/why-common-lisp-is-my-favorite/</loc>
+    <lastmod>2025-11-01T00:37:00-03:00</lastmod>
+  </url><url>
+    <loc>https://jean0t.github.io/about/</loc>
+    <lastmod>2025-11-01T00:31:57-03:00</lastmod>
+  </url><url>
+    <loc>https://jean0t.github.io/categories/</loc>
+  </url>
+</urlset>
