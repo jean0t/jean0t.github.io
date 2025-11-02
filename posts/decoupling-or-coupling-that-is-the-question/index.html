@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=38395&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Decoupling or Coupling That Is the Question - jean0t blog</title><link rel="icon" type="image/png" href=images/favicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Decoupling modules and parts of a system is usually a great idea, but what if is not?" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://localhost:1313/posts/decoupling-or-coupling-that-is-the-question/">
+	<meta property="og:url" content="http://localhost:38395/posts/decoupling-or-coupling-that-is-the-question/">
   <meta property="og:site_name" content="jean0t blog">
   <meta property="og:title" content="Decoupling or Coupling That Is the Question">
   <meta property="og:description" content="Decoupling modules and parts of a system is usually a great idea, but what if is not?">
@@ -20,17 +20,17 @@
   <meta name="twitter:title" content="Decoupling or Coupling That Is the Question">
   <meta name="twitter:description" content="Decoupling modules and parts of a system is usually a great idea, but what if is not?">
 
-        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:38395/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.7a5c05040394322612a2d98397e9932aa81d9d7acc70199463e79f8180c8e0c0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.478e7f2b9cf8d87be42edfd9fe1810beab1331847df94b1b430478b309f28282.css"   />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:38395/css/main.7a5c05040394322612a2d98397e9932aa81d9d7acc70199463e79f8180c8e0c0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:38395/css/dark.478e7f2b9cf8d87be42edfd9fe1810beab1331847df94b1b430478b309f28282.css"   />
 </head>
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://localhost:1313/">jean0t blog</a>
+		<a href="http://localhost:38395/">jean0t blog</a>
 	</div>
 	<nav>
 		
@@ -61,9 +61,9 @@
 <p>Pretty much can be said regarding software architecture and trade offs and among all those things there is the so called structures we are all so used to hear about: clean architecture, onion or hexagonal architecture, etc. All of them are ways to organize the system according to how easy it is to modify/update and improve its scalability later.<br>
 Among them, one idea that is recurrent is about decoupling, which is what we are going to discuss in this post.</p>
 <h1 id="clean-architecture-and-decoupling">Clean architecture and decoupling</h1>
-<p>When we talk about architecture, clean architecture is one that I like the most, because a personal preference of mine is coding monoliths instead of microservices. This arrangement makes the program as layers (which resembles the onion architecture), each of them is independent from the level above and dependent of only the level immediately below it. As a general rule we have:<br>
-models -&gt; repository -&gt; services -&gt; presentation<br>
-models is the raw database configuration, the most internal levels, repository deals with persistence and services deals with the verifications and operations, presentation is basically the external utilisation, like api calls or a cli interface&hellip; gui or tui&hellip; basically the interface that will permit the user interact with the software.<br>
+<p>When we talk about architecture, clean architecture is one that I like the most, because a personal preference of mine is coding monoliths instead of microservices. This arrangement makes the program as layers (which resembles the onion architecture), each of them is independent from the level above and dependent of only the level immediately below it. As a general rule we have:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>models -&gt; repository -&gt; services -&gt; presentation
+</span></span></code></pre></div><p>models is the raw database configuration, the most internal levels, repository deals with persistence and services deals with the verifications and operations, presentation is basically the external utilisation, like api calls or a cli interface&hellip; gui or tui&hellip; basically the interface that will permit the user interact with the software.<br>
 After this brief explanation we can see that each layer is responsible for one thing and they are decoupled in the sense that we can change only one of them and the others will remain mostly untouched, which is the magic of decoupling, easiness of modifications, which inspired microservices that takes it to another level of decoupling by separating logic itself in micro APIs inside a major API.</p>
 <h1 id="is-decoupling-the-magic-solution-and-coupling-really-bad">Is decoupling the magic solution and coupling really bad?</h1>
 <p>That is what I thought when I was reflecting about django, django orm, decoupling and microservices. If decoupling is really that good, what about frameworks like django that have everything integrated and dependence isn&rsquo;t really a choice? Because if you need to change anything you will have a lot more of effort to do anything, so what do we get as advantage to have that? Practicality and speed! Two factors that are really important depending on the project.<br>

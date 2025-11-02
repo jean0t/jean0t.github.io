@@ -2,36 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/decoupling-or-coupling-that-is-the-question/</loc>
+    <loc>http://localhost:38395/posts/decoupling-or-coupling-that-is-the-question/</loc>
     <lastmod>2025-11-01T21:02:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:38395/</loc>
     <lastmod>2025-11-01T21:02:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:38395/posts/</loc>
     <lastmod>2025-11-01T21:02:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
+    <loc>http://localhost:38395/tags/programming/</loc>
     <lastmod>2025-11-01T21:02:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/software-architecture/</loc>
+    <loc>http://localhost:38395/tags/software-architecture/</loc>
     <lastmod>2025-11-01T21:02:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:38395/tags/</loc>
     <lastmod>2025-11-01T21:02:20-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/common-lisp/</loc>
+    <loc>http://localhost:38395/tags/common-lisp/</loc>
     <lastmod>2025-11-01T00:37:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/opinion/</loc>
+    <loc>http://localhost:38395/tags/opinion/</loc>
     <lastmod>2025-11-01T00:37:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/why-common-lisp-is-my-favorite/</loc>
+    <loc>http://localhost:38395/posts/why-common-lisp-is-my-favorite/</loc>
     <lastmod>2025-11-01T00:37:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:38395/about/</loc>
     <lastmod>2025-11-01T00:31:57-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:38395/categories/</loc>
   </url>
 </urlset>
