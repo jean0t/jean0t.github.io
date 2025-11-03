@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Common Lisp on jean0t blog</title>
-    <link>http://localhost:38395/tags/common-lisp/</link>
+    <link>https://jean0t.github.io/tags/common-lisp/</link>
     <description>Recent content in Common Lisp on jean0t blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Jean0t</copyright>
     <lastBuildDate>Sat, 01 Nov 2025 00:37:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:38395/tags/common-lisp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jean0t.github.io/tags/common-lisp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Common Lisp Is My Favorite</title>
-      <link>http://localhost:38395/posts/why-common-lisp-is-my-favorite/</link>
+      <link>https://jean0t.github.io/posts/why-common-lisp-is-my-favorite/</link>
       <pubDate>Sat, 01 Nov 2025 00:37:00 -0300</pubDate>
-      <guid>http://localhost:38395/posts/why-common-lisp-is-my-favorite/</guid>
+      <guid>https://jean0t.github.io/posts/why-common-lisp-is-my-favorite/</guid>
       <description>&lt;p&gt;I came from a background of python/golang programming, my first contact with programming was with python, then I studied C to get to know systems programming and understand better about memory with pointers&amp;hellip; golang was kind of my favorite language during a lot of time, because it has a simple and direct syntax with some built in niceties like map or slices (which in C must be done manually).&lt;/p&gt;&#xA;&lt;p&gt;However after some time I got kinda bored, the tools were amazing but I didn&amp;rsquo;t feel the ecstasy of exploring new features or syntax, I had heard about lisp before, although I disregarded it because I thought it was esoteric (which was synonym of uselessly complex and hard) to do things.&lt;/p&gt;</description>
     </item>
   </channel>
