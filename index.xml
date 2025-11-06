@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jean0t blog</title>
+    <link>https://jean0t.github.io/</link>
+    <description>Recent content on jean0t blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Jean0t</copyright>
+    <lastBuildDate>Sat, 01 Nov 2025 21:02:20 -0300</lastBuildDate>
+    <atom:link href="https://jean0t.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decoupling or Coupling That Is the Question</title>
+      <link>https://jean0t.github.io/posts/decoupling-or-coupling-that-is-the-question/</link>
+      <pubDate>Sat, 01 Nov 2025 21:02:20 -0300</pubDate>
+      <guid>https://jean0t.github.io/posts/decoupling-or-coupling-that-is-the-question/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;introduction&lt;/h1&gt;&#xA;&lt;p&gt;Pretty much can be said regarding software architecture and trade offs and among all those things there is the so called structures we are all so used to hear about: clean architecture, onion or hexagonal architecture, etc. All of them are ways to organize the system according to how easy it is to modify/update and improve its scalability later.&lt;br&gt;&#xA;Among them, one idea that is recurrent is about decoupling, which is what we are going to discuss in this post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Common Lisp Is My Favorite</title>
+      <link>https://jean0t.github.io/posts/why-common-lisp-is-my-favorite/</link>
+      <pubDate>Sat, 01 Nov 2025 00:37:00 -0300</pubDate>
+      <guid>https://jean0t.github.io/posts/why-common-lisp-is-my-favorite/</guid>
+      <description>&lt;p&gt;I came from a background of python/golang programming, my first contact with programming was with python, then I studied C to get to know systems programming and understand better about memory with pointers&amp;hellip; golang was kind of my favorite language during a lot of time, because it has a simple and direct syntax with some built in niceties like map or slices (which in C must be done manually).&lt;/p&gt;&#xA;&lt;p&gt;However after some time I got kinda bored, the tools were amazing but I didn&amp;rsquo;t feel the ecstasy of exploring new features or syntax, I had heard about lisp before, although I disregarded it because I thought it was esoteric (which was synonym of uselessly complex and hard) to do things.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://jean0t.github.io/about/</link>
+      <pubDate>Sat, 01 Nov 2025 00:31:57 -0300</pubDate>
+      <guid>https://jean0t.github.io/about/</guid>
+      <description>&lt;p&gt;Salut, ça va? I am a brazilian IT professional with love and care about what I do, mostly developing OS tools and web apps casually to make my life better and professionally to serve businesses.&lt;/p&gt;&#xA;&lt;p&gt;I love to explore new concepts and to build my own things, it also means I need to know how to handle both the presentation and infrastructure to make my application running, if it is web, that is it. During this journey I experienced different areas, although not much in pentesting.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
