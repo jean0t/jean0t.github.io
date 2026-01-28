@@ -1,69 +1,46 @@
 <!DOCTYPE html>
-<html><head lang="en">
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Decoupling or Coupling That Is the Question - jean0t blog</title><link rel="icon" type="image/png" href=images/favicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Decoupling modules and parts of a system is usually a great idea, but what if is not?" />
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content="https://jean0t.github.io/posts/decoupling-or-coupling-that-is-the-question/">
-  <meta property="og:site_name" content="jean0t blog">
-  <meta property="og:title" content="Decoupling or Coupling That Is the Question">
-  <meta property="og:description" content="Decoupling modules and parts of a system is usually a great idea, but what if is not?">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-11-01T21:02:20-03:00">
-    <meta property="article:modified_time" content="2025-11-01T21:02:20-03:00">
-    <meta property="article:tag" content="Programming">
-    <meta property="article:tag" content="Software Architecture">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Decoupling or Coupling That Is the Question">
-  <meta name="twitter:description" content="Decoupling modules and parts of a system is usually a great idea, but what if is not?">
-
-        <link href="https://jean0t.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
-	
-
-	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://jean0t.github.io/css/main.7a5c05040394322612a2d98397e9932aa81d9d7acc70199463e79f8180c8e0c0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://jean0t.github.io/css/dark.478e7f2b9cf8d87be42edfd9fe1810beab1331847df94b1b430478b309f28282.css"   />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoupling or Coupling That Is the Question | jean0t blog</title>
+    <meta name="description" content="A blog about technology, literature and myself.">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-        <div class="content"><header>
-	<div class="main">
-		<a href="https://jean0t.github.io/">jean0t blog</a>
-	</div>
-	<nav>
-		
-		<a href="/">Home</a>
-		
-		<a href="/posts">All posts</a>
-		
-		<a href="/about">About</a>
-		
-		<a href="/tags">Tags</a>
-		
-		
-	</nav>
+    <header>
+    <h1>jean0t blog</h1>
+    <nav>
+        <a href="https://jean0t.github.io/">Home</a>
+        <a href="https://jean0t.github.io/posts/">Posts</a>
+        <a href="https://jean0t.github.io/tags/">Tags</a>
+    </nav>
 </header>
+<hr>
 
-<main>
-  <article>
-    <div class="post-container">
-      
-      <div class="post-content">
-        <div class="title">
-          <h1 class="title">Decoupling or Coupling That Is the Question</h1>
-          <div class="meta">Posted on Nov 1, 2025</div>
-        </div>
+
+    <main>
         
-        <section class="body">
-          <h1 id="introduction">introduction</h1>
+<article>
+    <header>
+        <h2>Decoupling or Coupling That Is the Question</h2>
+        
+        <p>Decoupling modules and parts of a system is usually a great idea, but what if is not?</p>
+        
+        <time datetime="2025-11-01">Published: November 1, 2025</time>
+        
+        <p>Tags: <a href="/tags/programming/">programming</a>, <a href="/tags/software-architecture/">software architecture</a></p>
+        
+    </header>
+    <br>
+    <section>
+        <h1 id="introduction">introduction</h1>
 <p>Pretty much can be said regarding software architecture and trade offs and among all those things there is the so called structures we are all so used to hear about: clean architecture, onion or hexagonal architecture, etc. All of them are ways to organize the system according to how easy it is to modify/update and improve its scalability later.<br>
 Among them, one idea that is recurrent is about decoupling, which is what we are going to discuss in this post.</p>
 <h1 id="clean-architecture-and-decoupling">Clean architecture and decoupling</h1>
 <p>When we talk about architecture, clean architecture is one that I like the most, because a personal preference of mine is coding monoliths instead of microservices. This arrangement makes the program as layers (which resembles the onion architecture), each of them is independent from the level above and dependent of only the level immediately below it. As a general rule we have:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>models -&gt; repository -&gt; services -&gt; presentation
-</span></span></code></pre></div><p>models is the raw database configuration, the most internal levels, repository deals with persistence and services deals with the verifications and operations, presentation is basically the external utilisation, like api calls or a cli interface&hellip; gui or tui&hellip; basically the interface that will permit the user interact with the software.<br>
+<pre tabindex="0"><code>models -&gt; repository -&gt; services -&gt; presentation
+</code></pre><p>models is the raw database configuration, the most internal levels, repository deals with persistence and services deals with the verifications and operations, presentation is basically the external utilisation, like api calls or a cli interface&hellip; gui or tui&hellip; basically the interface that will permit the user interact with the software.<br>
 After this brief explanation we can see that each layer is responsible for one thing and they are decoupled in the sense that we can change only one of them and the others will remain mostly untouched, which is the magic of decoupling, easiness of modifications, which inspired microservices that takes it to another level of decoupling by separating logic itself in micro APIs inside a major API.</p>
 <h1 id="is-decoupling-the-magic-solution-and-coupling-really-bad">Is decoupling the magic solution and coupling really bad?</h1>
 <p>That is what I thought when I was reflecting about django, django orm, decoupling and microservices. If decoupling is really that good, what about frameworks like django that have everything integrated and dependence isn&rsquo;t really a choice? Because if you need to change anything you will have a lot more of effort to do anything, so what do we get as advantage to have that? Practicality and speed! Two factors that are really important depending on the project.<br>
@@ -76,44 +53,28 @@ Like interfaces, they are great to make a common ground of interaction, but if y
 <p>Decoupling or dependence isn&rsquo;t inherently bad, just have a common sense and critical thinking to adapt the concepts and think outside the paradigm of your language, if possible to have a wider vision regarding a challenge, sometimes what we are preached about isn&rsquo;t wrong, but depending on the situation it isn&rsquo;t really convenient or the ideal solution.<br>
 Sometimes the best trade off is to complete the solution faster and with a known model, like those batteries included frameworks, without having to recreate everything with build-as-you-go frameworks that you also need to use a lot of time to think about the architecture.</p>
 
-        </section>
-        <div class="post-tags">
-          
-          
-          <nav class="nav tags">
-            <ul class="tags">
-              
-              <li><a href="/tags/programming">programming</a></li>
-              
-              <li><a href="/tags/software-architecture">software architecture</a></li>
-              
-            </ul>
-          </nav>
-          
-          
-        </div>
-      </div>
+    </section>
+    
+    <footer>
+        <nav>
+            <a href="https://jean0t.github.io/posts/">← Back to Posts</a>
+        </nav>
+    </footer>
+</article>
 
-      
-      
-    </div>
+    </main>
 
-    </article>
-</main>
+    <hr>
 <footer>
-  <div style="display:flex"><a class="soc" href="https://github.com/jean0t" rel="me" title="GitHub"><svg class="feather">
-       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#github" />
-    </svg></a><a class="border"></a><a class="soc" href="https://www.linkedin.com/in/joao-maurici0-m/" rel="me" title="Linkedin"><svg class="feather">
-       <use href="/svg/feather-sprite.51cf5647cb1987f769b616558f2620fd9423d72058490231b391bf6aa3744b55.svg#linkedin" />
-    </svg></a><a class="border"></a></div>
-  <div class="footer-info">
-    2025  © Jean0t |  <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
-  </div>
+    <p>&copy; 2026 jean0t blog</p>
+    
+    <nav>
+        <a href="https://github.com/jean0t" target="_blank" rel="noopener">GitHub</a> 
+        <a href="https://www.linkedin.com/in/joao-maurici0-m/" target="_blank" rel="noopener">LinkedIn</a> 
+        <a href="https://codeberg.org/noether" target="_blank" rel="noopener">Codeberg</a> 
+    </nav>
+    
 </footer>
 
-
-
-</div>
-    </body>
+</body>
 </html>
