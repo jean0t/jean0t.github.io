@@ -6,8 +6,15 @@
     <description>Recent content in Common Lisp on jean0t blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Nov 2025 00:37:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 22:02:24 -0300</lastBuildDate>
     <atom:link href="https://jean0t.github.io/tags/common-lisp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simping for Common Lisp</title>
+      <link>https://jean0t.github.io/posts/simping-for-common-lisp/</link>
+      <pubDate>Thu, 29 Jan 2026 22:02:24 -0300</pubDate>
+      <guid>https://jean0t.github.io/posts/simping-for-common-lisp/</guid>
+      <description>&lt;h1 id=&#34;macros&#34;&gt;MACROS&lt;/h1&gt;&#xA;&lt;p&gt;That is the answer, simple and direct. Macros are the greatest tool regarding common lisp, it gives us more flexibility but also privacy.&lt;br&gt;&#xA;What do I mean by both terms &amp;lsquo;privacy&amp;rsquo; and &amp;lsquo;flexibility&amp;rsquo;?&lt;br&gt;&#xA;Privacy because it can hide functions in the package, you don&amp;rsquo;t need to expose your functions to make it work, just as you export a class with private methods, with macros you can expose simply an interface that will call those functions internally and be nice syntatically.&lt;br&gt;&#xA;Regarding flexibility it is also pretty direct, you don&amp;rsquo;t need to call functions everytime, you can make an structure that organizes the code itself with functions and other structures internally so you have a more coherent design and a DSL if you prefer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why Common Lisp Is My Favorite</title>
       <link>https://jean0t.github.io/posts/why-common-lisp-is-my-favorite/</link>

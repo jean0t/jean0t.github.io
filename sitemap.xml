@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jean0t.github.io/tags/common-lisp/</loc>
+    <lastmod>2026-01-29T22:02:24-03:00</lastmod>
+  </url><url>
     <loc>https://jean0t.github.io/tags/opinion/</loc>
     <lastmod>2026-01-29T22:02:24-03:00</lastmod>
   </url><url>
@@ -28,9 +31,6 @@
   </url><url>
     <loc>https://jean0t.github.io/tags/software-architecture/</loc>
     <lastmod>2025-11-01T21:02:20-03:00</lastmod>
-  </url><url>
-    <loc>https://jean0t.github.io/tags/common-lisp/</loc>
-    <lastmod>2025-11-01T00:37:00-03:00</lastmod>
   </url><url>
     <loc>https://jean0t.github.io/posts/why-common-lisp-is-my-favorite/</loc>
     <lastmod>2025-11-01T00:37:00-03:00</lastmod>
