@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simping for Common Lisp | jean0t blog</title>
+    <meta name="description" content="A blog about technology, literature and myself.">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+    <h1>jean0t blog</h1>
+    <nav>
+        <a href="http://localhost:1313/">Home</a>
+        <a href="http://localhost:1313/posts/">Posts</a>
+        <a href="http://localhost:1313/tags/">Tags</a>
+    </nav>
+</header>
+<hr>
+
+
+    <main>
+        
+<article>
+    <header>
+        <h2>Simping for Common Lisp</h2>
+        
+        <p>Another post about praising common lisp qualities</p>
+        
+        <time datetime="2026-01-29">Published: January 29, 2026</time>
+        
+        <p>Tags: <a href="/tags/programming/">programming</a>, <a href="/tags/opinion/">opinion</a>, <a href="/tags/talk/">talk</a></p>
+        
+    </header>
+    <br>
+    <section>
+        <h1 id="macros">MACROS</h1>
+<p>That is the answer, simple and direct. Macros are the greatest tool regarding common lisp, it gives us more flexibility but also privacy.<br>
+What do I mean by both terms &lsquo;privacy&rsquo; and &lsquo;flexibility&rsquo;?<br>
+Privacy because it can hide functions in the package, you don&rsquo;t need to expose your functions to make it work, just as you export a class with private methods, with macros you can expose simply an interface that will call those functions internally and be nice syntatically.<br>
+Regarding flexibility it is also pretty direct, you don&rsquo;t need to call functions everytime, you can make an structure that organizes the code itself with functions and other structures internally so you have a more coherent design and a DSL if you prefer.</p>
+<p>Imagine you have a module to graphics that you want to expose to the public, if it was in C you would create a header files with all the functions available there, but in Common Lisp you can create a macro that can be like:</p>
+<pre tabindex="0"><code>(draw-line :x1 0 :y1 120 :x2 100 :y2 400)
+</code></pre><p>What it does? It draws a line from the coordinates (0, 120) to (100, 400). It has a nice design over it, the name is self explanatory and the elements are really descritive.<br>
+It is also great when you know it has no penality in speed whatsoever, the internal functions will be called and coordinated to make this happen while you simply talk with this interface.</p>
+<h1 id="ffi-with-c">FFI with C</h1>
+<p>The FFI interface with the C ABI is incredible. If you come from the background of C++ that you can use interchangeable or even D that you simply need to rewrite the header of the function to use it, you will find it pretty simple and easy. We have the native way of sbcl that is the package <code>sb-alien</code>, but also the cool way that is the cffi library that handles the heavy lifting nicely.<br>
+The way to make it work is to declare exactly like C, the types used and the signature of the functions, which can be time consuming, but rewards us with more control over the code. The cffi can define enums, structs, pointers and everything else without much trouble, like in this example:</p>
+<pre tabindex="0"><code>// the C code:
+int add(a int, b int) {
+    return a + b;
+}
+
+//===================
+; the lisp version with cffi:
+; the name %add is the name we give the function ourselves
+(cffi:defcfun (&#34;add&#34; %add) :int
+  (a :int)
+  (b :int))
+</code></pre><p>See? Really simple, we even have <code>cffi:defcenum</code> and other niceties.</p>
+
+    </section>
+    
+    <footer>
+        <nav>
+            <a href="http://localhost:1313/posts/">← Back to Posts</a>
+        </nav>
+    </footer>
+</article>
+
+    </main>
+
+    <hr>
+<footer>
+    <p>&copy; 2026 jean0t blog</p>
+    
+    <nav>
+        <a href="https://github.com/jean0t" target="_blank" rel="noopener">GitHub</a> 
+        <a href="https://www.linkedin.com/in/joao-maurici0-m/" target="_blank" rel="noopener">LinkedIn</a> 
+        <a href="https://codeberg.org/noether" target="_blank" rel="noopener">Codeberg</a> 
+    </nav>
+    
+</footer>
+
+</body>
+</html>
