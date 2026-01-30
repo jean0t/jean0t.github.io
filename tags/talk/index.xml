@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talk on jean0t blog</title>
-    <link>http://localhost:1313/tags/talk/</link>
+    <link>https://jean0t.github.io/tags/talk/</link>
     <description>Recent content in Talk on jean0t blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Jan 2026 22:02:24 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/talk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jean0t.github.io/tags/talk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simping for Common Lisp</title>
-      <link>http://localhost:1313/posts/simping-for-common-lisp/</link>
+      <link>https://jean0t.github.io/posts/simping-for-common-lisp/</link>
       <pubDate>Thu, 29 Jan 2026 22:02:24 -0300</pubDate>
-      <guid>http://localhost:1313/posts/simping-for-common-lisp/</guid>
+      <guid>https://jean0t.github.io/posts/simping-for-common-lisp/</guid>
       <description>&lt;h1 id=&#34;macros&#34;&gt;MACROS&lt;/h1&gt;&#xA;&lt;p&gt;That is the answer, simple and direct. Macros are the greatest tool regarding common lisp, it gives us more flexibility but also privacy.&lt;br&gt;&#xA;What do I mean by both terms &amp;lsquo;privacy&amp;rsquo; and &amp;lsquo;flexibility&amp;rsquo;?&lt;br&gt;&#xA;Privacy because it can hide functions in the package, you don&amp;rsquo;t need to expose your functions to make it work, just as you export a class with private methods, with macros you can expose simply an interface that will call those functions internally and be nice syntatically.&lt;br&gt;&#xA;Regarding flexibility it is also pretty direct, you don&amp;rsquo;t need to call functions everytime, you can make an structure that organizes the code itself with functions and other structures internally so you have a more coherent design and a DSL if you prefer.&lt;/p&gt;</description>
     </item>
   </channel>
