@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Talk on jean0t blog</title>
-    <link>https://jean0t.github.io/tags/talk/</link>
-    <description>Recent content in Talk on jean0t blog</description>
+    <title>Operational Systems on jean0t blog</title>
+    <link>https://jean0t.github.io/tags/operational-systems/</link>
+    <description>Recent content in Operational Systems on jean0t blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Feb 2026 22:15:41 -0300</lastBuildDate>
-    <atom:link href="https://jean0t.github.io/tags/talk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jean0t.github.io/tags/operational-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Awk Is Amazing</title>
       <link>https://jean0t.github.io/posts/awk-is-amazing/</link>
       <pubDate>Thu, 05 Feb 2026 22:15:41 -0300</pubDate>
       <guid>https://jean0t.github.io/posts/awk-is-amazing/</guid>
       <description>&lt;p&gt;Awk was created as a way to manipulate data easily because if you wanted to make some manipulation before, you had to create entire programs in C. As we know C isn&amp;rsquo;t the most complete language, it is really dry in the default library, which means that it would take a lot of time even for something simple, from that inconvenience that amazing tool was born.&lt;/p&gt;&#xA;&lt;h1 id=&#34;not-just-a-tool-but-a-programming-language-by-itself&#34;&gt;Not Just a Tool But a Programming Language By Itself&lt;/h1&gt;&#xA;&lt;p&gt;You can have files named &lt;code&gt;something.awk&lt;/code&gt; and it would be taken by the awk program and used to parse the input files, not to mention the possibility to create functions, having for loops and a great regex system.&lt;br&gt;&#xA;It considers the data from columns, you have the possibility to modify the separators and pretty much everything. Example of a function in awk:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Simping for Common Lisp</title>
-      <link>https://jean0t.github.io/posts/simping-for-common-lisp/</link>
-      <pubDate>Thu, 29 Jan 2026 22:02:24 -0300</pubDate>
-      <guid>https://jean0t.github.io/posts/simping-for-common-lisp/</guid>
-      <description>&lt;h1 id=&#34;macros&#34;&gt;MACROS&lt;/h1&gt;&#xA;&lt;p&gt;That is the answer, simple and direct. Macros are the greatest tool regarding common lisp, it gives us more flexibility but also privacy.&lt;br&gt;&#xA;What do I mean by both terms &amp;lsquo;privacy&amp;rsquo; and &amp;lsquo;flexibility&amp;rsquo;?&lt;br&gt;&#xA;Privacy because it can hide functions in the package, you don&amp;rsquo;t need to expose your functions to make it work, just as you export a class with private methods, with macros you can expose simply an interface that will call those functions internally and be nice syntatically.&lt;br&gt;&#xA;Regarding flexibility it is also pretty direct, you don&amp;rsquo;t need to call functions everytime, you can make an structure that organizes the code itself with functions and other structures internally so you have a more coherent design and a DSL if you prefer.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

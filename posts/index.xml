@@ -6,8 +6,15 @@
     <description>Recent content in Posts on jean0t blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jan 2026 22:02:24 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 22:15:41 -0300</lastBuildDate>
     <atom:link href="https://jean0t.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Awk Is Amazing</title>
+      <link>https://jean0t.github.io/posts/awk-is-amazing/</link>
+      <pubDate>Thu, 05 Feb 2026 22:15:41 -0300</pubDate>
+      <guid>https://jean0t.github.io/posts/awk-is-amazing/</guid>
+      <description>&lt;p&gt;Awk was created as a way to manipulate data easily because if you wanted to make some manipulation before, you had to create entire programs in C. As we know C isn&amp;rsquo;t the most complete language, it is really dry in the default library, which means that it would take a lot of time even for something simple, from that inconvenience that amazing tool was born.&lt;/p&gt;&#xA;&lt;h1 id=&#34;not-just-a-tool-but-a-programming-language-by-itself&#34;&gt;Not Just a Tool But a Programming Language By Itself&lt;/h1&gt;&#xA;&lt;p&gt;You can have files named &lt;code&gt;something.awk&lt;/code&gt; and it would be taken by the awk program and used to parse the input files, not to mention the possibility to create functions, having for loops and a great regex system.&lt;br&gt;&#xA;It considers the data from columns, you have the possibility to modify the separators and pretty much everything. Example of a function in awk:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Simping for Common Lisp</title>
       <link>https://jean0t.github.io/posts/simping-for-common-lisp/</link>

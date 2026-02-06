@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awk Is Amazing | jean0t blog</title>
+    <meta name="description" content="A blog about technology, literature and myself.">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+    <h1>jean0t blog</h1>
+    <nav>
+        <a href="https://jean0t.github.io/">Home</a>
+        <a href="https://jean0t.github.io/posts/">Posts</a>
+        <a href="https://jean0t.github.io/tags/">Tags</a>
+    </nav>
+</header>
+<hr>
+
+
+    <main>
+        
+<article>
+    <header>
+        <h2>Awk Is Amazing</h2>
+        
+        <p>awk is a great tool for data manipulation from the terminal in linux systems</p>
+        
+        <time datetime="2026-02-05">Published: February 5, 2026</time>
+        
+        <p>Tags: <a href="/tags/programming/">programming</a>, <a href="/tags/operational-systems/">operational systems</a>, <a href="/tags/talk/">talk</a></p>
+        
+    </header>
+    <br>
+    <section>
+        <p>Awk was created as a way to manipulate data easily because if you wanted to make some manipulation before, you had to create entire programs in C. As we know C isn&rsquo;t the most complete language, it is really dry in the default library, which means that it would take a lot of time even for something simple, from that inconvenience that amazing tool was born.</p>
+<h1 id="not-just-a-tool-but-a-programming-language-by-itself">Not Just a Tool But a Programming Language By Itself</h1>
+<p>You can have files named <code>something.awk</code> and it would be taken by the awk program and used to parse the input files, not to mention the possibility to create functions, having for loops and a great regex system.<br>
+It considers the data from columns, you have the possibility to modify the separators and pretty much everything. Example of a function in awk:</p>
+<pre tabindex="0"><code>awk &#39;
+    function endsWith(text, suffix) {
+        return text ~ prefix&#34;$&#34;
+    }
+    BEGIN { FS = &#34;:&#34; }
+    endsWith($7, &#34;bash&#34;) { print $0 }
+&#39; /etc/passwd
+</code></pre><p>It has comments with # and a structure pretty well defined, you have 2 basic statements, <strong>BEGIN</strong> and <strong>END</strong>, one runs before everything, which you use to configure separators and all variables, the other runs when everything finishes, which you can use to make some substitution or anything else you find useful to run in the end.</p>
+<h1 id="why-would-you-use-it">Why Would You Use It?</h1>
+<p>You can use one liners from perl, python or any programming language that is interpreted and can run in command line, but trust me, it wont be as directly and nice as awk. Not to mention that with bash, awk is the only second program you can be 100% sure of existing in any distribution, even alpine has it.<br>
+If you want to know a posix tool that will help you create scripts that are sure to run in any environment, it can be a great investment of time to upgrade your skills as system administrator or simply to satisfy a curiosity like me.</p>
+
+    </section>
+    
+    <footer>
+        <nav>
+            <a href="https://jean0t.github.io/posts/">← Back to Posts</a>
+        </nav>
+    </footer>
+</article>
+
+    </main>
+
+    <hr>
+<footer>
+    <p>&copy; 2026 jean0t blog</p>
+    
+    <nav>
+        <a href="https://github.com/jean0t" target="_blank" rel="noopener">GitHub</a> 
+        <a href="https://www.linkedin.com/in/joao-maurici0-m/" target="_blank" rel="noopener">LinkedIn</a> 
+        <a href="https://codeberg.org/noether" target="_blank" rel="noopener">Codeberg</a> 
+    </nav>
+    
+</footer>
+
+</body>
+</html>

@@ -11,6 +11,30 @@
     <atom:link href="https://jean0t.github.io/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Awk Is Amazing</title>
+      <link>https://jean0t.github.io/posts/awk-is-amazing/</link>
+      <pubDate>Thu, 05 Feb 2026 22:15:41 -0300</pubDate>
+      <author>Joao Mauricio</author>
+      <guid>https://jean0t.github.io/posts/awk-is-amazing/</guid>
+      <description>&lt;p&gt;Awk was created as a way to manipulate data easily because if you wanted to make some manipulation before, you had to create entire programs in C. As we know C isn&amp;rsquo;t the most complete language, it is really dry in the default library, which means that it would take a lot of time even for something simple, from that inconvenience that amazing tool was born.&lt;/p&gt;
+&lt;h1 id=&#34;not-just-a-tool-but-a-programming-language-by-itself&#34;&gt;Not Just a Tool But a Programming Language By Itself&lt;/h1&gt;
+&lt;p&gt;You can have files named &lt;code&gt;something.awk&lt;/code&gt; and it would be taken by the awk program and used to parse the input files, not to mention the possibility to create functions, having for loops and a great regex system.&lt;br&gt;
+It considers the data from columns, you have the possibility to modify the separators and pretty much everything. Example of a function in awk:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;awk &amp;#39;
+    function endsWith(text, suffix) {
+        return text ~ prefix&amp;#34;$&amp;#34;
+    }
+    BEGIN { FS = &amp;#34;:&amp;#34; }
+    endsWith($7, &amp;#34;bash&amp;#34;) { print $0 }
+&amp;#39; /etc/passwd
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;It has comments with # and a structure pretty well defined, you have 2 basic statements, &lt;strong&gt;BEGIN&lt;/strong&gt; and &lt;strong&gt;END&lt;/strong&gt;, one runs before everything, which you use to configure separators and all variables, the other runs when everything finishes, which you can use to make some substitution or anything else you find useful to run in the end.&lt;/p&gt;
+&lt;h1 id=&#34;why-would-you-use-it&#34;&gt;Why Would You Use It?&lt;/h1&gt;
+&lt;p&gt;You can use one liners from perl, python or any programming language that is interpreted and can run in command line, but trust me, it wont be as directly and nice as awk. Not to mention that with bash, awk is the only second program you can be 100% sure of existing in any distribution, even alpine has it.&lt;br&gt;
+If you want to know a posix tool that will help you create scripts that are sure to run in any environment, it can be a great investment of time to upgrade your skills as system administrator or simply to satisfy a curiosity like me.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Simping for Common Lisp</title>
       <link>https://jean0t.github.io/posts/simping-for-common-lisp/</link>
       <pubDate>Thu, 29 Jan 2026 22:02:24 -0300</pubDate>
