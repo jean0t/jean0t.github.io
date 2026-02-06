@@ -39,6 +39,9 @@
 <p>You can have files named <code>something.awk</code> and it would be taken by the awk program and used to parse the input files, not to mention the possibility to create functions, having for loops and a great regex system.<br>
 It considers the data from columns, you have the possibility to modify the separators and pretty much everything. Example of a function in awk:</p>
 <pre tabindex="0"><code>awk &#39;
+    # this code lists every user with /bin/bash
+    # as the default shell
+
     function endsWith(text, suffix) {
         return text ~ prefix&#34;$&#34;
     }
