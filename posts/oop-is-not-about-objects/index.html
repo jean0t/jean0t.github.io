@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Is Not About Objects | jean0t blog</title>
+    <meta name="description" content="A blog about technology, literature and myself.">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+    <h1>jean0t blog</h1>
+    <nav>
+        <a href="https://jean0t.github.io/">Home</a>
+        <a href="https://jean0t.github.io/posts/">Posts</a>
+        <a href="https://jean0t.github.io/tags/">Tags</a>
+    </nav>
+</header>
+<hr>
+
+
+    <main>
+        
+<article>
+    <header>
+        <h2>OOP Is Not About Objects</h2>
+        
+        <p>Object Orientation isn&#39;t about objects</p>
+        
+        <time datetime="2026-02-17">Published: February 17, 2026</time>
+        
+        <p>Tags: <a href="/tags/programming/">programming</a>, <a href="/tags/opinion/">opinion</a></p>
+        
+    </header>
+    <br>
+    <section>
+        <h1 id="object-isnt-about-real-world-objects">Object isn&rsquo;t about real world Objects</h1>
+<p>The OOP paradigm in programming isn&rsquo;t about modeling objects from real world with properties as we were told before, but about interfaces that communicate with each other. Interfaces are like contracts that tell what they offer you and what they must receive, the object answering it doesn&rsquo;t matter much, which is the original concept from smalltalk that was the first to have this paradigm.</p>
+<h1 id="interfaces">Interfaces</h1>
+<p>One of the best ways to expose it is through golang interfaces.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">Shape</span> <span style="color:#66d9ef">interface</span> {
+</span></span><span style="display:flex;"><span>     <span style="color:#a6e22e">Perimeter</span>(<span style="color:#f92672">...</span><span style="color:#a6e22e">sides</span> <span style="color:#66d9ef">int</span>) <span style="color:#66d9ef">int</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>When we pass the type <em>Shape</em> to a function, it doesn&rsquo;t matter if the object is a triangle or square, the only thing that matters is the message being passed and the answer received.<br>
+As I want to reinforce, It is the way it was intended to be as a paradigm. The Object was a template of how the messages would be processed and responded to, they worked the same as the interfaces we have today and it makes a lot of difference when programming and thinking about the result.</p>
+<p>The Object leaves the main point and you start thinking about the contract between them, you don&rsquo;t model them after a &rsquo;thing&rsquo; that exists in real life, but as the behavior you expect to have accordingly to a certain message being received to be processed.<br>
+Using the example of shapes, if you receive a message with 3 sides, you know it is a triangle, then the template regarding triangle (the object) will take this information and work on it&hellip; same if it was 4 sides, you would use the rectangle object&hellip;</p>
+<p>What we have today, that is basically highlighting the objects and classes so much, is due to the inheritance of java. It being used as a standard way to learn OOP brought a lot of weird thoughts regarding this paradigm and how it should work. I too was really confused about it because of the usual and lazy explanations, so I am writing about it to clarify and bring this perspective into light.</p>
+
+    </section>
+    
+    <footer>
+        <nav>
+            <a href="https://jean0t.github.io/posts/">← Back to Posts</a>
+        </nav>
+    </footer>
+</article>
+
+    </main>
+
+    <hr>
+<footer>
+    <p>&copy; 2026 jean0t blog</p>
+    
+    <nav>
+        <a href="https://github.com/jean0t" target="_blank" rel="noopener">GitHub</a> 
+        <a href="https://www.linkedin.com/in/joao-maurici0-m/" target="_blank" rel="noopener">LinkedIn</a> 
+        <a href="https://codeberg.org/noether" target="_blank" rel="noopener">Codeberg</a> 
+    </nav>
+    
+</footer>
+
+</body>
+</html>

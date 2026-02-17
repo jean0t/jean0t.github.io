@@ -6,8 +6,15 @@
     <description>Recent content in Opinion on jean0t blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jan 2026 22:02:24 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 01:57:57 -0300</lastBuildDate>
     <atom:link href="https://jean0t.github.io/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OOP Is Not About Objects</title>
+      <link>https://jean0t.github.io/posts/oop-is-not-about-objects/</link>
+      <pubDate>Tue, 17 Feb 2026 01:57:57 -0300</pubDate>
+      <guid>https://jean0t.github.io/posts/oop-is-not-about-objects/</guid>
+      <description>&lt;h1 id=&#34;object-isnt-about-real-world-objects&#34;&gt;Object isn&amp;rsquo;t about real world Objects&lt;/h1&gt;&#xA;&lt;p&gt;The OOP paradigm in programming isn&amp;rsquo;t about modeling objects from real world with properties as we were told before, but about interfaces that communicate with each other. Interfaces are like contracts that tell what they offer you and what they must receive, the object answering it doesn&amp;rsquo;t matter much, which is the original concept from smalltalk that was the first to have this paradigm.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Simping for Common Lisp</title>
       <link>https://jean0t.github.io/posts/simping-for-common-lisp/</link>

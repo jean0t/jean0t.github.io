@@ -11,6 +11,27 @@
     <atom:link href="https://jean0t.github.io/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>OOP Is Not About Objects</title>
+      <link>https://jean0t.github.io/posts/oop-is-not-about-objects/</link>
+      <pubDate>Tue, 17 Feb 2026 01:57:57 -0300</pubDate>
+      <author>Joao Mauricio</author>
+      <guid>https://jean0t.github.io/posts/oop-is-not-about-objects/</guid>
+      <description>&lt;h1 id=&#34;object-isnt-about-real-world-objects&#34;&gt;Object isn&amp;rsquo;t about real world Objects&lt;/h1&gt;
+&lt;p&gt;The OOP paradigm in programming isn&amp;rsquo;t about modeling objects from real world with properties as we were told before, but about interfaces that communicate with each other. Interfaces are like contracts that tell what they offer you and what they must receive, the object answering it doesn&amp;rsquo;t matter much, which is the original concept from smalltalk that was the first to have this paradigm.&lt;/p&gt;
+&lt;h1 id=&#34;interfaces&#34;&gt;Interfaces&lt;/h1&gt;
+&lt;p&gt;One of the best ways to expose it is through golang interfaces.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Shape&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;interface&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     &lt;span style=&#34;color:#a6e22e&#34;&gt;Perimeter&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sides&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When we pass the type &lt;em&gt;Shape&lt;/em&gt; to a function, it doesn&amp;rsquo;t matter if the object is a triangle or square, the only thing that matters is the message being passed and the answer received.&lt;br&gt;
+As I want to reinforce, It is the way it was intended to be as a paradigm. The Object was a template of how the messages would be processed and responded to, they worked the same as the interfaces we have today and it makes a lot of difference when programming and thinking about the result.&lt;/p&gt;
+&lt;p&gt;The Object leaves the main point and you start thinking about the contract between them, you don&amp;rsquo;t model them after a &amp;rsquo;thing&amp;rsquo; that exists in real life, but as the behavior you expect to have accordingly to a certain message being received to be processed.&lt;br&gt;
+Using the example of shapes, if you receive a message with 3 sides, you know it is a triangle, then the template regarding triangle (the object) will take this information and work on it&amp;hellip; same if it was 4 sides, you would use the rectangle object&amp;hellip;&lt;/p&gt;
+&lt;p&gt;What we have today, that is basically highlighting the objects and classes so much, is due to the inheritance of java. It being used as a standard way to learn OOP brought a lot of weird thoughts regarding this paradigm and how it should work. I too was really confused about it because of the usual and lazy explanations, so I am writing about it to clarify and bring this perspective into light.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Awk Is Amazing</title>
       <link>https://jean0t.github.io/posts/awk-is-amazing/</link>
       <pubDate>Thu, 05 Feb 2026 22:15:41 -0300</pubDate>
